@@ -1,8 +1,12 @@
 #include <array>
 #include <deque>
+#include <stdexcept>
 #include <forward_list>
+#include <fstream>
 #include <iostream>
 #include <list>
+#include <queue>
+#include <stack>
 #include <string>
 #include <vector>
 
@@ -600,6 +604,146 @@ void t26() {
   cout << WrapString2("Chao Mai", "Mr.", "Jr.") << endl;
 }
 
+void searchDigit(const string &str) {
+  string::size_type pos = 0;
+  while ((pos = str.find_first_of("0123456789", pos)) != string::npos) {
+    cout << "got digit " << str[pos] << " at " << pos << endl;
+
+    // 不可少，否则就无限loop
+    ++pos;
+  }
+}
+
+void searchAlpha(const string &str) {
+  string::size_type pos = 0;
+  while ((pos = str.find_first_not_of("0123456789", pos)) != string::npos) {
+    cout << "got digit " << str[pos] << " at " << pos << endl;
+
+    // 不可少，否则就无限loop
+    ++pos;
+  }
+}
+
+void t27() {
+  string s("ab2c3d7RE6");
+  cout << boolalpha << (s.find_first_of("0123456789", s.size()) == string::npos)
+       << endl;
+
+  searchDigit(s);
+  searchAlpha(s);
+}
+
+void t28() {
+  ifstream ifs("../src/ch09/words.txt", ifstream::in);
+
+  if (!ifs) {
+    cout << "open error" << endl;
+  }
+
+  string text;
+  while (getline(ifs, text)) {
+    if (text.size() == 0) {
+      continue;
+    }
+
+    string::size_type pos = 0;
+    while ((pos = text.find_first_of("aceimnorstuiwxz", pos)) != string::npos) {
+      cout << text[pos];
+      ++pos;
+    }
+    cout << endl;
+    text.clear();
+  }
+}
+
+void t29() {
+  vector<string> vs{"123", "234", "345"};
+  int sum = 0;
+  for (const auto &s : vs) {
+    sum += stoi(s);
+  }
+
+  cout << sum << endl;
+
+  vector<string> vs1{"123.1", "234.2", "345.3"};
+  double sum1 = 0;
+  for (const auto &s : vs1) {
+    sum1 += stod(s);
+  }
+
+  cout << sum1 << endl;
+}
+
+void t30() {
+  stack<int> a;
+  a.push(1);
+
+  deque<string> ds{"123", "234", "345"};
+  vector<string> vs{"123", "234", "345"};
+
+  stack<string> ssd(ds);
+  // stack<string, vector<string>> ssv(ds);
+  stack<string, vector<string>> ssv(vs);
+}
+
+void t31() {
+  stack<int> digit;
+  stack<char> op;
+
+  string s("1 + 2 - (2+3-(2+1 - (1+1-(1+2))))");
+  // string s("2 +( 2+1 - (2+3))");
+
+  string::size_type pos = 0;
+  while (pos < s.size() || !op.empty()) {
+    char ch = 'E';
+
+    if (pos != s.size()) {
+      ch = s[pos];
+    }
+
+    if (isdigit(ch)) {
+      digit.push(ch - '0');
+    } else if (ch == '+' || ch == '-' || ch == '*' || ch == '/' || ch == '(') {
+      op.push(ch);
+    } else if (isspace(ch)) {
+      ;
+    } else if (ch == ')' || ch == 'E') {
+      char o = op.top();
+      op.pop();
+
+      while (o != '(') {
+        int d1 = digit.top();
+        digit.pop();
+        int d2 = digit.top();
+        digit.pop();
+
+        switch (o) {
+          case '+': {
+            digit.push(d1 + d2);
+            break;
+          }
+          case '-': {
+            digit.push(d2 - d1);
+            break;
+          }
+          default: { throw runtime_error("invalid operand"); }
+        }
+
+        if (!op.empty()) {
+          o = op.top();
+          op.pop();
+        } else {
+          o = '(';
+        }
+      }
+    }
+
+    ++pos;
+  }
+
+  cout << digit.top() << endl;
+}
+
 int main(int argc, char *argv[]) {
   // t1();
   // t2();
@@ -625,7 +769,12 @@ int main(int argc, char *argv[]) {
   // t22();
   // t23();
   // t24();
-  t25();
+  // t25();
   // t26();
+  // t27();
+  // t28();
+  // t29();
+  // t30();
+  t31();
   return 0;
 }
