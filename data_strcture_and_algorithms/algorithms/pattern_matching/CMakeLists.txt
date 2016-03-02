@@ -1,12 +1,4 @@
-cmake_minimum_required(VERSION 3.2)
-project(pattern_matching)
+set(EXECUTABLE_OUTPUT_PATH ${PROJECT_BINARY_DIR})
 
-set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -std=c11")
-
-set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/lib)
-set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/lib)
-set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/bin)
-
-aux_source_directory(${CMAKE_CURRENT_SOURCE_DIR}/src PATTERN_MATCHING_SOURCE_FILES)
-
-add_executable(pattern_matching ${PATTERN_MATCHING_SOURCE_FILES})
+aux_source_directory(${PROJECT_SOURCE_DIR}/pattern_matching/src PATTERN_MATCHING_SOURCE_FILES)
+add_executable(algorithms_pattern_matching ${PATTERN_MATCHING_SOURCE_FILES})

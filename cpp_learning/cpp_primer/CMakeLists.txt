@@ -7,6 +7,10 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -Weverything -Wno-c++11-exten
 
 add_subdirectory(${PROJECT_SOURCE_DIR}/src/ch02)
 add_subdirectory(${PROJECT_SOURCE_DIR}/src/ch03)
+add_subdirectory(${PROJECT_SOURCE_DIR}/src/ch05)
 add_subdirectory(${PROJECT_SOURCE_DIR}/src/ch07)
 add_subdirectory(${PROJECT_SOURCE_DIR}/src/ch08)
 add_subdirectory(${PROJECT_SOURCE_DIR}/src/ch09)
+add_subdirectory(${PROJECT_SOURCE_DIR}/src/ch10)
+add_subdirectory(${PROJECT_SOURCE_DIR}/src/ch11)
+add_subdirectory(${PROJECT_SOURCE_DIR}/src/ch12)

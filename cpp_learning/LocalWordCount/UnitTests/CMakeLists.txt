@@ -1,5 +1,4 @@
 set(EXECUTABLE_OUTPUT_PATH ${PROJECT_BINARY_DIR}/Test)
-SET(LIBRARY_OUTPUT_PATH ${PROJECT_BINARY_DIR}/Lib)
 
 include_directories(${PROJECT_SOURCE_DIR}/Deps/gtest/include)
 include_directories(${PROJECT_SOURCE_DIR}/Deps)

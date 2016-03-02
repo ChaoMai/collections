@@ -744,6 +744,21 @@ void t31() {
   cout << digit.top() << endl;
 }
 
+void t32() {
+  array<int, 10> arr1{1, 2, 3, 4, 45, 65};
+  array<int, 10> arr2{10, 20, 30, 40, 45, 65};
+  array<int, 10>::iterator it = arr1.begin();
+  cout << *it << endl;
+  swap(arr1, arr2);
+  cout << *it << endl;
+
+  vector<const char *> v{"awef", "awefw", "fawe"};
+  list<string> ls(v.begin(), v.end());
+  for (auto &s : ls) {
+    cout << s << endl;
+  }
+}
+
 int main(int argc, char *argv[]) {
   // t1();
   // t2();
@@ -775,6 +790,7 @@ int main(int argc, char *argv[]) {
   // t28();
   // t29();
   // t30();
-  t31();
+  // t31();
+  t32();
   return 0;
 }
