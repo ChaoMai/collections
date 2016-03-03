@@ -15,7 +15,7 @@ int maxsum1(const vector<int>& seq, int i, int& max_ref);
 int maxsum2(const vector<int>& seq);
 
 void MaximumSumIncreasingSubsequence() {
-  vector<int> seq{1, 101, 2, 3, 100, 101, 4, 5};
+  vector<int> seq{100, 1, 101, 2, 3, 100, 4, 5};
   int max_sum = 0;
   maxsum1(seq, seq.size() - 1, max_sum);
   cout << max_sum << endl;

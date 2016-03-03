@@ -31,12 +31,12 @@ int main() {
   // LongestIncreasingSubsequence();
   // LongestPalindromicSubsequence();
   // MatrixChain();
-  // MaximumSumIncreasingSubsequence();
+  MaximumSumIncreasingSubsequence();
   // MinCostPath();
   // PalidromePartitioning();
   // Partition();
   // Partition3();
   // Robber();
-  WordWrap();
+  // WordWrap();
   return 0;
 }

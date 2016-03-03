@@ -1,20 +1,34 @@
 #include <cstring>
+#include <fstream>
 #include <initializer_list>
 #include <iostream>
+#include <map>
 #include <memory>
+#include <set>
+#include <sstream>
 #include <stdexcept>
 #include <string>
 #include <vector>
 
+using std::allocator;
+using std::cerr;
 using std::cin;
 using std::cout;
 using std::endl;
+using std::getline;
+using std::ifstream;
 using std::initializer_list;
+using std::make_pair;
 using std::make_shared;
+using std::map;
+using std::ostream;
 using std::out_of_range;
+using std::pair;
 using std::runtime_error;
+using std::set;
 using std::shared_ptr;
 using std::string;
+using std::istringstream;
 using std::unique_ptr;
 using std::vector;
 using std::weak_ptr;
@@ -369,6 +383,9 @@ void t13() {
   for (const auto e : a) {
     cout << e << endl;
   }
+
+  shared_ptr<int> p;
+  cout << (p == nullptr) << endl;
 }
 
 void t14() {
@@ -404,6 +421,180 @@ void t15() {
   cout << str.get() << endl;
 }
 
+void t16() {
+  class C {
+   public:
+    // C() = default;
+    C(int a, int b) : a_(a), b_(b) {}
+
+    int a_;
+    int b_;
+  };
+
+  // 错误
+  // C *const pc = new C[5]{1, 2};
+
+  allocator<C>::size_type n = 10;
+  allocator<C> alloc;
+  auto const p = alloc.allocate(n);
+  // C *const p1 = alloc.allocate(10);
+  auto q = p;
+  alloc.construct(q++, 1, 2);  // 类似make_shared
+  cout << p->a_ << " " << p->b_ << endl;
+  cout << q->a_ << " " << q->b_ << endl;  // 错误，q指向的内存未构造
+
+  while (q != p) {
+    alloc.destroy(--q);
+  }
+
+  alloc.deallocate(p, n);
+}
+
+void t17() {
+  int i = 5;
+  const auto cap = &i;   // int *const cap
+  auto const cap1 = &i;  // int *const cap1
+  *cap = 1;
+  // ++cap;
+  *cap1 = 1;
+  // ++cap1;
+  cout << i << endl;
+
+  const auto &car = i;   // const int &car
+  auto const &car1 = i;  // const int &car1
+  // car = 1;
+  // car1 = 1;
+}
+
+// class QueryResult {
+// friend void print(ostream &os, const QueryResult &pqr);
+
+// public:
+// using line_no = vector<string>::size_type;
+// QueryResult(string s, shared_ptr<set<line_no>> p,
+// shared_ptr<vector<string>> f)
+// : sought(s), lines(p), file(f) {}
+
+// private:
+// string sought;
+// shared_ptr<set<line_no>> lines;
+// shared_ptr<vector<string>> file;
+// };
+
+// void print(ostream &os, const QueryResult &qr) {}
+
+// class TextQuery {
+// public:
+// using line_no = vector<string>::size_type;
+// TextQuery(ifstream &ifs);
+// QueryResult query(const string &s);
+
+// private:
+// shared_ptr<vector<string>> file;
+// map<string, shared_ptr<set<line_no>>> wm;
+// };
+
+// TextQuery::TextQuery(ifstream &ifs) : file(new vector<string>) {
+// string text;
+// while (getline(ifs, text)) {
+// file->push_back(text);
+// line_no n = file->size() - 1;
+// istringstream line(text);
+// string word;
+// while (line >> word) {
+// auto &lines = wm[word];
+// if (lines == nullptr) {
+// lines.reset(new set<line_no>);
+// }
+// lines->insert(n);
+// }
+// }
+// }
+
+// QueryResult TextQuery::query(const string &s) {
+// static shared_ptr<set<line_no>> nodata(new set<line_no>);
+// auto loc = wm.find(s);
+// if (locc == wm.end()) {
+// return QueryResult(s, nodata, file);
+// } else {
+// return QueryResult(s, loc->second, file);
+// }
+// }
+
+class QueryResult {
+  friend void print(ostream &os, const QueryResult &pqr);
+
+ public:
+  using line_no = vector<string>::size_type;
+  QueryResult(string s, shared_ptr<set<line_no>> p, shared_ptr<StrBlob> f)
+      : sought(s), lines(p), file(f) {}
+  set<line_no>::iterator begin() { return lines->begin(); }
+  set<line_no>::iterator end() { return lines->end(); }
+  shared_ptr<StrBlob> get_file() { return file; }
+
+ private:
+  string sought;
+  shared_ptr<set<line_no>> lines;
+  shared_ptr<StrBlob> file;
+};
+
+void print(ostream &os, const QueryResult &qr) {}
+
+class TextQuery {
+ public:
+  using line_no = vector<string>::size_type;
+  TextQuery(ifstream &ifs);
+  QueryResult query(const string &s);
+
+ private:
+  shared_ptr<StrBlob> file;
+  map<string, shared_ptr<set<line_no>>> wm;
+};
+
+TextQuery::TextQuery(ifstream &ifs) : file(new StrBlob) {
+  string text;
+  while (getline(ifs, text)) {
+    file->push_back(text);
+    line_no n = file->size() - 1;
+    istringstream line(text);
+    string word;
+    while (line >> word) {
+      auto &lines = wm[word];
+      if (lines == nullptr) {
+        lines.reset(new set<line_no>);
+      }
+      lines->insert(n);
+    }
+  }
+}
+
+QueryResult TextQuery::query(const string &s) {
+  static shared_ptr<set<line_no>> nodata(new set<line_no>);
+  auto loc = wm.find(s);
+  if (loc == wm.end()) {
+    return QueryResult(s, nodata, file);
+  } else {
+    return QueryResult(s, loc->second, file);
+  }
+}
+
+void t18() {
+  ifstream ifs("../src/ch12/story.txt", ifstream::in);
+  if (!ifs) {
+    cerr << "open file error" << endl;
+  }
+
+  TextQuery tq(ifs);
+  while (true) {
+    cout << "enter word to look for, or q to quit: ";
+    string s;
+    if (!(cin >> s) || s == "q") {
+      break;
+    }
+    print(cout, tq.query(s));
+  }
+}
+
 int main(int argc, char *argv[]) {
   // t1();
   // t2();
@@ -419,6 +610,9 @@ int main(int argc, char *argv[]) {
   // t12();
   // t13();
   // t14();
-  t15();
+  // t15();
+  // t16();
+  // t17();
+  t18();
   return 0;
 }
