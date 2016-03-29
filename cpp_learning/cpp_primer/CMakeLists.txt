@@ -1,9 +1,14 @@
 cmake_minimum_required(VERSION 3.2)
 project(cpp_primer)
 
+set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -Weverything -Wno-c++11-extensions \
--Wno-c++98-compat -Wno-c++98-compat-pedantic")
+# set(CMAKE_CXX_FLAGS "-Weverything -Wno-c++11-extensions -Wno-c++98-compat -fno-elide-constructors")
+set(CMAKE_CXX_FLAGS "-Weverything -Wno-c++11-extensions -Wno-c++98-compat")
+set(CMAKE_CXX_FLAGS_DEBUG "-O0 -g")
+set(CMAKE_CXX_FLAGS_RELEASE "-O2")
+set(CMAKE_CXX_FLAGS_RELWITHDEBINFO "-O2 -g")
+set(CMAKE_BUILD_TYPE "Debug")
 
 add_subdirectory(${PROJECT_SOURCE_DIR}/src/ch02)
 add_subdirectory(${PROJECT_SOURCE_DIR}/src/ch03)
@@ -15,3 +20,5 @@ add_subdirectory(${PROJECT_SOURCE_DIR}/src/ch10)
 add_subdirectory(${PROJECT_SOURCE_DIR}/src/ch11)
 add_subdirectory(${PROJECT_SOURCE_DIR}/src/ch12)
 add_subdirectory(${PROJECT_SOURCE_DIR}/src/ch13)
+add_subdirectory(${PROJECT_SOURCE_DIR}/src/ch14)
+add_subdirectory(${PROJECT_SOURCE_DIR}/src/ch15)
