@@ -5,7 +5,7 @@
 
 #include "disc_quote.h"
 
-class LimitQuote1 : DiscQuote {
+class LimitQuote1 : public DiscQuote {
  public:
   LimitQuote1() = default;
   LimitQuote1(const std::string& book, double price, std::size_t qty,

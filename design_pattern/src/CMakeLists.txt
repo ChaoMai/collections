@@ -1,0 +1,2 @@
+add_subdirectory(factory_method)
+add_subdirectory(simple_factory)

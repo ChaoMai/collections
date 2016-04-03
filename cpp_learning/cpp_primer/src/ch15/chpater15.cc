@@ -6,15 +6,22 @@
 #include "bulk_quote.h"
 #include "bulk_quote1.h"
 #include "bulk_quote2.h"
+#include "quote.h"
+
 #include "circle.h"
-#include "disc_quote.h"
 #include "line.h"
 #include "point.h"
-#include "quote.h"
 #include "rectangle.h"
+
+#include "and_query.h"
+#include "not_query.h"
+#include "or_query.h"
+#include "query.h"
+#include "text_query.h"
 
 using std::cout;
 using std::endl;
+using std::ifstream;
 using std::make_shared;
 using std::ostream;
 using std::shared_ptr;
@@ -208,6 +215,46 @@ void t15() {
   }
 }
 
+void t16() {
+  BulkQuote1 bq;
+  cout << "---" << endl;
+  BulkQuote1 bq1(std::move(bq));
+  cout << "---" << endl;
+
+  Quote q;
+  cout << "---" << endl;
+  Quote q1(std::move(q));
+  cout << "---" << endl;
+}
+
+void t17() {
+  auto ifs = ifstream("../src/data/story.txt", ifstream::in);
+  TextQuery tq(ifs);
+  cout << tq.query("is") << endl;
+  cout << tq.query("no") << endl;
+  cout << tq.query("she") << endl;
+
+  Query q = Query("is") & Query("no") | Query("she");
+  cout << q.eval(tq) << endl;
+
+  Query q1 = ~Query("no") | Query("she");
+  cout << q1.eval(tq) << endl;
+}
+
+void t18() {
+  struct Erdos {
+    Erdos() { whoAmIReally(); }
+    virtual void whoAmIReally() { cout << "I really am Erdos\n"; }
+  };
+
+  struct Fermat : public Erdos {
+    virtual void whoAmIReally() { cout << "I really am Fermat\n"; }
+  };
+
+  Erdos s;
+  Fermat f;
+}
+
 int main(int argc, char *argv[]) {
   // t1();
   // t2();
@@ -222,7 +269,10 @@ int main(int argc, char *argv[]) {
   // t11();
   // t12();
   // t13();
-  t14();
+  // t14();
   // t15();
+  // t16();
+  // t17();
+  t18();
   return 0;
 }

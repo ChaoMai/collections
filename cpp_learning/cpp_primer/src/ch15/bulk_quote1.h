@@ -17,9 +17,17 @@ class BulkQuote1 : public DiscQuote {
   BulkQuote1(const BulkQuote1& b) : DiscQuote(b) {
     std::cout << "copy BulkQuote1" << std::endl;
   }
+  BulkQuote1(BulkQuote1&& b) : DiscQuote(std::move(b)) {
+    std::cout << "move BulkQuote1" << std::endl;
+  }
   BulkQuote1& operator=(const BulkQuote1& rhs) {
     DiscQuote::operator=(rhs);
     std::cout << "copy assign BulkQuote1" << std::endl;
+    return *this;
+  }
+  BulkQuote1& operator=(BulkQuote1&& rhs) {
+    DiscQuote::operator=(std::move(rhs));
+    std::cout << "move assign BulkQuote1" << std::endl;
     return *this;
   }
   ~BulkQuote1() override { std::cout << "destory BulkQuote1" << std::endl; }

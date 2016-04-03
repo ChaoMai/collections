@@ -3,7 +3,6 @@ project(cpp_primer)
 
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
-# set(CMAKE_CXX_FLAGS "-Weverything -Wno-c++11-extensions -Wno-c++98-compat -fno-elide-constructors")
 set(CMAKE_CXX_FLAGS "-Weverything -Wno-c++11-extensions -Wno-c++98-compat")
 set(CMAKE_CXX_FLAGS_DEBUG "-O0 -g")
 set(CMAKE_CXX_FLAGS_RELEASE "-O2")

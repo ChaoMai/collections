@@ -14,14 +14,21 @@ class Quote {
   Quote(const Quote &q) : bookNo(q.bookNo), price(q.price) {
     std::cout << "copy Quote" << std::endl;
   }
-  Quote(Quote &&) = default;
+  Quote(Quote &&q) : bookNo(q.bookNo), price(q.price) {
+    std::cout << "move Quote" << std::endl;
+  }
   Quote &operator=(const Quote &rhs) {
     bookNo = rhs.bookNo;
     price = rhs.price;
     std::cout << "copy assign Quote" << std::endl;
     return *this;
   }
-  Quote &operator=(Quote &&) = default;
+  Quote &operator=(Quote &&rhs) {
+    bookNo = rhs.bookNo;
+    price = rhs.price;
+    std::cout << "move assign Quote" << std::endl;
+    return *this;
+  }
   virtual ~Quote() { std::cout << "destory Quote" << std::endl; }
 
   std::string isbn() const { return bookNo; }
