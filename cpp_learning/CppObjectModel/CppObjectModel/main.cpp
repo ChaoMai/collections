@@ -2,14 +2,14 @@
 #include "vf.h"
 
 int main() {
-    //Obj();
-    //Vf();
+  Obj();
+  // Vf();
 
-    int a = 5;
-    int b = 1;
+  int a = 5;
+  int b = 1;
 
-    a = b + 1;
-    b = 0;
+  a = b + 1;
+  b = 0;
 
-    return 0;
+  return 0;
 }

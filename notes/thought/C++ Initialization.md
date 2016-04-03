@@ -32,7 +32,7 @@ int i{d}; // 错误
       A a;
     };
     ```
-* 当类类型的成员没有在构造函数初始值列表中显示地初始化时。 
+* 当类类型的成员没有在构造函数初始值列表中显示地初始化时。
     ```cpp
     class A {
      public:
@@ -68,7 +68,7 @@ class Aggre {
   int i;
   double d;
   char c;
-}
+};
 
 Aggre aggre = {1} // d和c都是0
 ```
