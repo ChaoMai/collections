@@ -14,9 +14,6 @@ using std::shared_ptr;
 using std::string;
 using std::vector;
 
-bool operator==(const StrBlob &lhs, const StrBlob &rhs);
-bool operator!=(const StrBlob &lhs, const StrBlob &rhs);
-
 bool operator==(const StrBlob &lhs, const StrBlob &rhs) {
   return *lhs.data < *rhs.data;
 }
