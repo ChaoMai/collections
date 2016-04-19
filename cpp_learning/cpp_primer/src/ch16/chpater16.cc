@@ -3,11 +3,13 @@
 #include <cstring>
 #include <functional>
 #include <iostream>
+#include <memory>
 #include <string>
 #include <vector>
 
 #include "blob.h"
 #include "blobptr.h"
+#include "debug_delete.h"
 #include "sales_data.h"
 #include "screen.h"
 #include "vec.h"
@@ -16,8 +18,11 @@ using std::cin;
 using std::cout;
 using std::endl;
 using std::for_each;
+using std::function;
+using std::greater;
 using std::less;
 using std::string;
+using std::unique_ptr;
 using std::vector;
 
 template <typename T>
@@ -257,6 +262,96 @@ void t13() {
   func(c);
 }
 
+template <typename T, typename F = less<T>>
+int compare_default(const T &v1, const T &v2, F f = F()) {
+  if (f(v1, v2)) {
+    return -1;
+  }
+
+  if (f(v2, v1)) {
+    return 1;
+  }
+
+  return 0;
+}
+
+void t14() {
+  cout << greater<int>()(1, 4) << endl;
+  cout << compare_default(1, 4, greater<int>()) << endl;
+  cout << compare_default<int, greater<int>>(1, 4) << endl;
+  // cout << compare_default<int, bool (*)(int, int)>(1, 4) << endl;
+  // core dump
+  // cout << compare_default<int, function<bool(int, int)>>(1, 4) << endl;
+  // terminate called after throwing an instance of 'std::bad_function_call
+  cout << compare_default<int, bool (*)(int, int)>(1, 4, [](int, int) {
+    return true;
+  }) << endl;
+}
+
+template <typename T>
+void print_container(const T &c) {
+  for (typename T::size_type i = 0; i != c.size(); ++i) {
+    cout << c[i] << " ";
+  }
+  cout << endl;
+}
+
+template <typename T>
+void print_container2(const T &c) {
+  // const auto won't work, as the `const auto it` is
+  //`const typename T::const_iterator it`
+  // for (typename T::const_iterator it = c.cbegin(); it != c.cend(); ++it) {
+  for (auto it = c.cbegin(); it != c.cend(); ++it) {
+    cout << *it << " ";
+  }
+  cout << endl;
+}
+
+void t15() {
+  vector<int> vi{1, 2, 3, 4, 5, 6, 7, 8, 9};
+  print_container(vi);
+  print_container2(vi);
+}
+
+void t16() {
+  double *pd = new double(10);
+  DebugDelete d;
+  d(pd);
+
+  unique_ptr<vector<string>, DebugDelete> upv(new vector<string>,
+                                              DebugDelete());
+  upv->push_back("awef");
+  upv->push_back("awef");
+  upv->push_back("awef");
+  upv->push_back("awef");
+  upv->push_back("awef");
+
+  unique_ptr<int, function<void(int *)>> up(
+      new int(10), [](int *) { cout << "called" << endl; });
+}
+
+template <typename T>
+void ff(T t) {
+  cout << t << endl;
+}
+
+template <typename T>
+class F {
+  template <typename FT>
+  friend void ff(FT);
+
+ public:
+  F() = default;
+
+ private:
+  T t = 0;
+};
+
+void t17() {
+  vector<string> vs{"awef", "qwer", "zxcv"};
+  Blob<string> b(vs.begin(), vs.end());
+}
+
 int main(int argc, char *argv[]) {
   // t1();
   // t2();
@@ -270,6 +365,9 @@ int main(int argc, char *argv[]) {
   // t10();
   // t11();
   // t12();
-  t13();
+  // t13();
+  // t14();
+  // t15();
+  t16();
   return 0;
 }

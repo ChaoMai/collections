@@ -6,6 +6,7 @@
 #include <sys/socket.h>
 #include <netinet/in.h>
 #include <string.h>
+#include <arpa/inet.h>
 
 #define ERR_EXIT(m)     \
   do {                  \
@@ -43,8 +44,8 @@ int main(void) {
   struct sockaddr_in servaddr;
   memset(&servaddr, 0, sizeof(servaddr));
   servaddr.sin_family = AF_INET;
-  servaddr.sin_port = htons(5188);
-  servaddr.sin_addr.s_addr = htonl(INADDR_ANY);
+  servaddr.sin_port = htons(28888);
+  servaddr.sin_addr.s_addr = inet_addr("127.0.0.1");
 
   if (bind(sock, reinterpret_cast<sockaddr *>(&servaddr), sizeof(servaddr)) < 0)
     ERR_EXIT("bind error");

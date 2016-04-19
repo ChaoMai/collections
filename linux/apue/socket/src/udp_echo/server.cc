@@ -41,7 +41,7 @@ int init_server() {
   // loop with recvfrom
   constexpr int sz = 256;
   char buf[sz] = {};
-  long rc;
+  ssize_t rc;
 
   sockaddr_in source_addr;
   socklen_t source_addr_size;
@@ -53,7 +53,8 @@ int init_server() {
     cout << "from client: recvfrom " << rc << " bytes\n";
     cout << buf << endl;
 
-    if (sendto(fd, buf, sizeof(buf), 0,
+    // rc cannot be negative here
+    if (sendto(fd, buf, static_cast<size_t>(rc), 0,
                reinterpret_cast<sockaddr*>(&source_addr),
                source_addr_size) < 0) {
       cout << "sendto error" << endl;

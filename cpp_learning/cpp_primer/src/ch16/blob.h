@@ -31,6 +31,8 @@ class Blob {
   using size_type = typename std::vector<T>::size_type;
 
   Blob();
+  template <typename It>
+  Blob(It, It);
   Blob(std::initializer_list<T>);
   Blob(const Blob&);
   Blob& operator=(const Blob&);
@@ -62,6 +64,11 @@ class Blob {
 template <typename T>
 Blob<T>::Blob()
     : data_(std::make_shared<std::vector<T>>()) {}
+
+template <typename T>
+template <typename It>
+Blob<T>::Blob(It b, It e)
+    : data_(std::make_shared<std::vector<T>>(b, e)) {}
 
 template <typename T>
 Blob<T>::Blob(std::initializer_list<T> il)

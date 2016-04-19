@@ -59,13 +59,14 @@ int init_server() {
   // recv with loop
   constexpr int sz = 256;
   char buf[sz] = {};
-  long rc;
+  ssize_t rc;
 
   while ((rc = recv(cfd, buf, sizeof(buf), 0)) > 0) {
     cout << "from client: recv " << rc << " bytes\n";
     cout << buf << endl;
 
-    if (send(cfd, buf, sizeof(buf), 0) < 0) {
+    // rc cannot be negative here
+    if (send(cfd, buf, static_cast<size_t>(rc), 0) < 0) {
       cout << "send error" << endl;
       close(cfd);
       close(fd);
