@@ -6,25 +6,49 @@ using std::endl;
 using std::greater;
 using std::less;
 
-template <typename T, typename F = less<T>>
-int compare_default(const T &v1, const T &v2, F f = F()) {
-  if (f(v1, v2)) {
-    return -1;
-  }
+template <typename T>
+class F;
 
-  if (f(v2, v1)) {
-    return 1;
-  }
+template <typename T>
+void pf1(F<T>);
 
-  return 0;
+void pf2(F<int>);
+
+template <typename T>
+void pf3(F<T>);
+
+template <typename T>
+class F {
+  friend void pf1(F);
+  // template <typename PF1T>
+  // friend void pf1(F<PF1T>);
+  friend void pf2(F);
+  friend void pf3<T>(F);
+
+ public:
+  F() = default;
+
+ private:
+  T t = 100;
+};
+
+template <typename T>
+void pf1(F<T> f) {
+  cout << f.t << endl;
+}
+
+void pf2(F<int> f) { cout << f.t << endl; }
+
+template <typename T>
+void pf3(F<T> f) {
+  cout << f.t << endl;
 }
 
 int main() {
-  // cout << greater<int>()(1, 4) << endl;
-  // cout << compare_default(1, 4, greater<int>()) << endl;
-  // cout << compare_default<int, greater<int>>(1, 4) << endl;
-  cout << compare_default<int, bool (*)(int, int)>(1, 4) << endl;
-  // cout << compare_default<int, bool (*)(int, int)>(1, 4, [](int, int) {
-  // return true;
-  // }) << endl;
+  F<int> f;
+  pf1(f);  // linker: cannot find definition
+  // pf1<int>(f); // compiler: cannot access
+  pf2(f);  // ok
+  pf3(f);
+  pf3<int>(f);
 }

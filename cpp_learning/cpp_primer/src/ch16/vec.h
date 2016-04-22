@@ -85,7 +85,7 @@ Vec<T>& Vec<T>::operator=(const Vec& rhs) {
 // 同上，不应抛出异常
 template <typename T>
 Vec<T>& Vec<T>::operator=(Vec&& rhs) noexcept {
-  if (this != *rhs) {
+  if (this != &rhs) {
     free();
 
     elements_ = rhs.elements_;
@@ -94,6 +94,8 @@ Vec<T>& Vec<T>::operator=(Vec&& rhs) noexcept {
 
     rhs.elements_ = rhs.first_free_ = rhs.cap_ = nullptr;
   }
+
+  return *this;
 }
 
 template <typename T>

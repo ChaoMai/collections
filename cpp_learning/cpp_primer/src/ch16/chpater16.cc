@@ -5,11 +5,14 @@
 #include <iostream>
 #include <memory>
 #include <string>
+#include <type_traits>
 #include <vector>
 
 #include "blob.h"
 #include "blobptr.h"
 #include "debug_delete.h"
+#include "mc_shared_ptr.h"
+#include "mc_unique_ptr.h"
 #include "sales_data.h"
 #include "screen.h"
 #include "vec.h"
@@ -21,6 +24,10 @@ using std::for_each;
 using std::function;
 using std::greater;
 using std::less;
+using std::make_shared;
+using std::max;
+using std::remove_reference;
+using std::shared_ptr;
 using std::string;
 using std::unique_ptr;
 using std::vector;
@@ -330,26 +337,256 @@ void t16() {
       new int(10), [](int *) { cout << "called" << endl; });
 }
 
-template <typename T>
-void ff(T t) {
-  cout << t << endl;
+void t17() {
+  vector<string> vs{"awef", "qwer", "zxcv"};
+  Blob<string> b(vs.begin(), vs.end());
 }
 
 template <typename T>
+class F;
+
+template <typename T>
+void pf3(F<T>);
+
+template <typename T>
 class F {
-  template <typename FT>
-  friend void ff(FT);
+  friend void pf(T);
+  friend void pf1(F);
+  friend void pf2(F);
+  friend void pf3<T>(F);
 
  public:
   F() = default;
 
  private:
-  T t = 0;
+  T t = 100;
 };
 
-void t17() {
-  vector<string> vs{"awef", "qwer", "zxcv"};
-  Blob<string> b(vs.begin(), vs.end());
+template <typename T>
+void pf(T f) {
+  cout << f.t << endl;
+}
+
+template <typename T>
+void pf1(F<T> f) {
+  cout << f.t << endl;
+}
+
+void pf2(F<int> f) { cout << f.t << endl; }
+
+template <typename T>
+void pf3(F<T> f) {
+  cout << f.t << endl;
+}
+
+void t18() {
+  F<int> f;
+  // pf(f); // cannot access
+  // pf1(f); // cannot access
+  // pf1<int>(f); // cannot access
+  // pf2(f); // ok
+  pf3(f);
+}
+
+template <typename T>
+class NoDefault {
+ public:
+  NoDefault(int a) {}
+};
+
+template class NoDefault<int>;  // ok
+// template class std::vector<NoDefault<int>>;  // error
+template class std::vector<int>;  // ok
+
+void t19() { NoDefault<int> nd(1); }
+
+// template <typename T>
+// class Stack;
+
+// void f1(Stack<char>);
+
+// class Exerciese {
+// // Exerciese():rsd(Stack<double>()){}
+// Stack<double>&rsd;
+// Stack<int>si;
+// };
+
+// void t20() {
+// Stack<char> *sc;
+// f1(*sc);
+// int iObj = sizeof(Stack<string>);
+// }
+
+void t21() {
+  function<void()> f;
+  cout << (f == nullptr) << endl;
+
+  shared_ptr<int> pi;
+  cout << pi.use_count() << endl;
+
+  shared_ptr<double> pd(new double(2.0));
+  // cannot reset to nullptr
+  pd.reset(new double(10.), [](double *p) {
+    cout << "delete pd" << endl;
+    delete p;
+  });
+
+  pd.reset(static_cast<double *>(nullptr));
+  cout << pd.use_count() << endl;
+}
+
+void t22() {
+  McSharedPtr<double> pd;
+  cout << pd.use_count() << endl;
+
+  McSharedPtr<int> pi(new int(100));
+  cout << *pi << endl;
+
+  McSharedPtr<string> ps(new string("chaomai,c"));
+  auto psc(ps);
+  cout << *psc << endl;
+  cout << psc.use_count() << endl;
+
+  McSharedPtr<string> ps1(new string("chaomai,m"));
+  auto psm(std::move(ps1));
+  cout << *psm << endl;
+  cout << psm.use_count() << endl;
+  cout << ps1.use_count() << endl;
+
+  cout << "---" << endl;
+
+  McSharedPtr<string> ps2(new string("chaomai,c"));
+  McSharedPtr<string> psc1;
+  psc1 = ps2;
+  cout << *psc1 << endl;
+  cout << psc1.use_count() << endl;
+  cout << ps2.use_count() << endl;
+
+  psc1 = psc1;
+  cout << psc1.use_count() << endl;
+
+  McSharedPtr<string> ps3(new string("chaomai,m"));
+  McSharedPtr<string> psm1;
+  psm1 = std::move(ps3);
+
+  cout << *psm1 << endl;
+  cout << psm1.use_count() << endl;
+  cout << ps3.use_count() << endl;
+
+  psm1 = std::move(psm1);
+  cout << *psm1 << endl;
+  cout << psm1.use_count() << endl;
+
+  cout << "---" << endl;
+
+  McSharedPtr<string> ps4(new string("chaomai,d"), [](string *p) {
+    cout << "ps4 customized deleter" << endl;
+    delete p;
+  });
+
+  cout << "---" << endl;
+
+  McSharedPtr<string> ps5(new string("chaomai,b"));
+  if (ps5) {
+    cout << "has data" << endl;
+  }
+  ps5.reset(nullptr, [](string *p) {
+    cout << "ps5 customized deleter" << endl;
+    delete p;
+  });
+  cout << ps5.use_count() << endl;
+}
+
+void t23() {
+  unique_ptr<int> pi(new int(1));
+  // unique_ptr<int>pi1(pi);
+  unique_ptr<int> pi1(std::move(pi));
+
+  unique_ptr<int> pi2;
+  // pi2 = pi1;
+  pi2 = std::move(pi1);
+}
+
+void t24() {
+  McUniquePtr<int> pi(new int(1));
+  cout << *pi << endl;
+
+  cout << "---" << endl;
+
+  McUniquePtr<string> ps(new string("maichao,m"));
+  cout << *ps << endl;
+
+  McUniquePtr<string> ps1(std::move(ps));
+  cout << *ps1 << endl;
+  cout << (ps.get() == nullptr) << endl;
+
+  McUniquePtr<string> ps2(McUniquePtr<string>(new string("maichao,t")));
+  cout << *ps2 << endl;
+
+  McUniquePtr<string> ps3;
+  ps3 = std::move(ps2);
+  ps3 = McUniquePtr<string>(new string("maichao,t1"));
+  cout << *ps3 << endl;
+  cout << ps3->size() << endl;
+
+  McUniquePtr<string, function<void(string *)>> ps4([](string *p) {
+    cout << "called deleter" << endl;
+    delete p;
+  });
+
+  McUniquePtr<string, function<void(string *)>> ps5(new string("maichao,db"),
+                                                    DebugDelete());
+}
+
+template <typename T>
+T fobj(T, T) {}
+
+template <typename T>
+T fref(const T &, const T &) {}
+
+template <typename T>
+T &fref2(const T &, const T &) {}
+
+void t25() {
+  int a[10];
+  int b[42];
+  fobj(a, b);  // ok, fobj(int*, int*)
+  // fref(a, b);  // 错误
+  // fref2(a, b);  // 错误
+
+  int c[10];
+  // fref(a, c);
+  fref2(a, c);
+}
+
+template <typename T1, typename T2, typename T3>
+T1 sum(T2, T3) {}
+
+void t26() {
+  auto val = sum<long>(1, 10);
+  long l = 10;
+  max<long>(l, 100);
+  compare<char const *>("huhuawef", "awef");
+}
+
+template <typename It>
+auto fcn(It beg, It end) -> decltype(*beg) {
+  return *beg;
+}
+
+template <typename It>
+auto fcn2(It beg, It end) -> typename remove_reference<decltype(*beg)>::type {
+  return *beg;
+}
+
+void t27() {
+  int i = 10;
+  (i) = 20;
+  cout << i << endl;
+
+  vector<int> vi{1, 2, 3};
+  fcn(vi.begin(), vi.end()) = 10;
+  cout << fcn2(vi.begin(), vi.end()) << endl;
 }
 
 int main(int argc, char *argv[]) {
@@ -368,6 +605,17 @@ int main(int argc, char *argv[]) {
   // t13();
   // t14();
   // t15();
-  t16();
+  // t16();
+  // t17();
+  // t18();
+  // t19();
+  // t20();
+  // t21();
+  // t22();
+  // t23();
+  // t24();
+  // t25();
+  // t26();
+  t27();
   return 0;
 }
