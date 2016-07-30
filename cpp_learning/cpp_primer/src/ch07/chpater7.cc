@@ -246,6 +246,31 @@ vector<double> S::vec(c);
 
 void func(const int &ci) {}
 
+void test() {
+  class NodefCons {
+   public:
+    NodefCons(int a, int b) : _a(a), _b(b) { cout << "construct" << endl; }
+    NodefCons(const NodefCons &lhs) : _a(lhs._a), _b(lhs._b) {
+      cout << "copy" << endl;
+    }
+
+   private:
+    int _a;
+    int _b;
+  };
+
+  class TestClass {
+   public:
+    // TestClass() : _no_def_cons(1, 2) {}
+    TestClass() : _no_def_cons(NodefCons(1, 2)) {}
+
+   private:
+    NodefCons _no_def_cons;
+  };
+
+  TestClass tc;
+}
+
 int main(int argc, char *argv[]) {
   // Sales_data total;
   // if (read(cin, total)) {
@@ -289,13 +314,15 @@ int main(int argc, char *argv[]) {
   // string d("d");
   // printD(d);
 
-  Aggre aggre = {1};
-  cout << aggre.i << " " << aggre.c << " " << aggre.d;
+  // Aggre aggre = {1};
+  // cout << aggre.i << " " << aggre.c << " " << aggre.d;
 
   // D2 d2;
   // cout << boolalpha << is_literal_type<D2>::value;
 
   // func(S::c);
+
+  test();
 
   return 0;
 }

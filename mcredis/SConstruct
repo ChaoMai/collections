@@ -1,0 +1,48 @@
+import os
+import re
+
+cxx = 'clang++'
+base_flags = '-Weverything -Wno-c++11-extensions -Wno-c++98-compat'
+cxxflags_debug = base_flags + ' -g -O0 -std=c++14'
+cxxflags_release = base_flags + ' -O2 -std=c++14'
+
+source_file_pat = ".+?\.cc$"
+
+output_bin = 'mcredis'
+build_dir = 'build'
+src_dir = 'src'
+
+
+def _build_target(target, env):
+    output_dir = os.path.join(build_dir, target)
+    output = os.path.join(output_dir, output_bin)
+    src = []
+    for file in os.listdir(src_dir):
+        if re.match(source_file_pat, file):
+            src.append(os.path.join(output_dir, file))
+    env.VariantDir(output_dir, 'src', duplicate=0)
+    env.Program(output, src)
+
+
+def build(target):
+    if target == 'debug':
+        debug = Environment(CXX=cxx, CXXFLAGS=cxxflags_debug)
+        _build_target(target, debug)
+
+    elif target == 'release':
+        release = Environment(CXX=cxx, CXXFLAGS=cxxflags_release)
+        _build_target(target, release)
+
+    elif target == 'all':
+        debug = Environment(CXX=cxx, CXXFLAGS=cxxflags_debug)
+        _build_target('debug', debug)
+        release = Environment(CXX=cxx, CXXFLAGS=cxxflags_release)
+        _build_target('release', release)
+
+    else:
+        print "unknown target: %s" % target
+        Exit(1)
+
+
+target = ARGUMENTS.get('target', 'debug')
+build(target)

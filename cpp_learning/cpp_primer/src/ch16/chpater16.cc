@@ -4,9 +4,11 @@
 #include <functional>
 #include <iostream>
 #include <memory>
+#include <sstream>
 #include <string>
 #include <type_traits>
 #include <vector>
+#include <utility>
 
 #include "blob.h"
 #include "blobptr.h"
@@ -26,6 +28,7 @@ using std::greater;
 using std::less;
 using std::make_shared;
 using std::max;
+using std::ostringstream;
 using std::remove_reference;
 using std::shared_ptr;
 using std::string;
@@ -545,7 +548,7 @@ template <typename T>
 T fref(const T &, const T &) {}
 
 template <typename T>
-T &fref2(const T &, const T &) {}
+T &fref2(const T &a, const T &) {}
 
 void t25() {
   int a[10];
@@ -589,6 +592,138 @@ void t27() {
   cout << fcn2(vi.begin(), vi.end()) << endl;
 }
 
+template <typename T>
+int comp(const T &, const T &) {
+  return 100;
+}
+
+int funcomp(int (*)(const int &, const int &)) { return 0; }
+int funcomp(int (*)(const string &, const string &)) { return 0; }
+
+void t28() {
+  int (*pf1)(const int &, const int &) = comp;
+  cout << pf1(1, 1) << endl;
+  funcomp(comp<int>);
+}
+
+template <typename T>
+void f1(T &) {}
+
+template <typename T>
+void f2(const T &) {}
+
+template <typename T>
+void f3(T &&) {}
+
+template <typename T>
+void ff3(T) {}
+
+void fun3(int &&) {}
+
+void t29() {
+  int i = 10;
+  const int ci = 20;
+  f3(i);
+  // f3(ci);
+  // fun3(i);
+  // fun3(ci);
+
+  using l = int &;
+  using ll = l &;
+  using r = int &&;
+  using lr = l &&;
+  using rr = r &&;
+  using rrr = rr &&;
+  using rrrr = rrr &&;
+
+  l li = i;
+  r ri = 20;
+  rr rri = 20;
+  rrr rrri = 20;
+  rrrr rrrri = 20;
+
+  f3(li);
+
+  f3(ri);
+  f3(rri);
+  f3(rrri);
+  f3(rrrri);
+
+  f3(20);
+  f3(std::move(li));
+
+  ff3(i);
+  ff3(ci);
+  ff3(i * ci);
+}
+
+void t30() {
+  int &&ri = 20;
+  cout << &ri << endl;
+
+  int i = 10;
+  int &&ri1 = static_cast<int &&>(i);
+}
+
+template <typename F, typename T1, typename T2>
+void flip1(F f, T1 &&t1, T2 &&t2) {
+  f(t1, t2);
+}
+
+template <typename F, typename T1, typename T2>
+void flip2(F f, T1 &&t1, T2 &&t2) {
+  f(std::forward<T1>(t1), std::forward<T2>(t2));
+}
+
+void ff1(int v1, int v2) {}
+
+void ff2(int &&v1, int v2) {}
+
+void t31() {
+  int v1 = 1;
+  int v2 = 5;
+
+  flip1(ff1, v1, v2);
+  flip2(ff1, v1, v2);
+
+  // flip1(ff2, 10, v2);
+  flip2(ff2, 10, v2);
+}
+
+template <typename T>
+string debug_rep(T const &t) {
+  ostringstream ret;
+  ret << t;
+  return ret.str();
+}
+
+template <typename T>
+string debug_rep(T *p) {
+  ostringstream ret;
+  ret << "pointer: " << p;
+
+  if (p) {
+    ret << " " << debug_rep(*p);
+  } else {
+    ret << " null pointer";
+  }
+
+  return ret.str();
+}
+
+void t32() {
+  string s("maichao");
+  cout << debug_rep(s) << endl;
+  cout << debug_rep(&s) << endl;
+
+  string *ps = &s;
+  string const *cps = &s;
+  // string const *&t = &s; // error
+  string *&t = ps;
+  // string const *const &t = &s;
+  // string const *&rps = ps; // error
+}
+
 int main(int argc, char *argv[]) {
   // t1();
   // t2();
@@ -616,6 +751,11 @@ int main(int argc, char *argv[]) {
   // t24();
   // t25();
   // t26();
-  t27();
+  // t27();
+  // t28();
+  // t29();
+  // t30();
+  // t31();
+  t32();
   return 0;
 }

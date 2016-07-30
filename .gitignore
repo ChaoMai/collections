@@ -209,3 +209,6 @@ FakesAssemblies/
 # Python cache
 __pycache__/
 *.pyc
+
+# Scons
+.sconsign.dblite

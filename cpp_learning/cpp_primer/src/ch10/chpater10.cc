@@ -506,7 +506,7 @@ int main(int argc, char *argv[]) {
   // t7();
   // t8();
   // t9();
-  // t10();
+  t10();
   // t11();
   // t12();
   // t13();
@@ -519,6 +519,6 @@ int main(int argc, char *argv[]) {
   // t20();
   // t21();
   // t22();
-  t23();
+  // t23();
   return 0;
 }
