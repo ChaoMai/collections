@@ -322,7 +322,9 @@ int main(int argc, char *argv[]) {
 
   // func(S::c);
 
-  test();
+  // test();
+  int i = 9;
+  cout << &(i) << endl;
 
   return 0;
 }

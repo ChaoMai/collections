@@ -26,8 +26,6 @@ TcpSocket::TcpSocket(const string& addr, unsigned short port) {
   _addr.sin_family = AF_INET;
   _addr.sin_addr.s_addr = inet_addr(addr.c_str());
   _addr.sin_port = htons(port);
-
-  _backlog = 5;
 }
 
 TcpSocket::~TcpSocket() {

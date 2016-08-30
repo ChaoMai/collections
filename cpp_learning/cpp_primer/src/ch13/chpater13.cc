@@ -16,6 +16,8 @@
 #include "hasptr1.h"
 #include "hasptr2.h"
 #include "hasptr3.h"
+#include "hasptr_ptr.h"
+#include "hasptr_value.h"
 #include "message.h"
 #include "str.h"
 #include "strvec.h"
@@ -520,6 +522,18 @@ void t18() {
   (Foo1()).sorted();
 }
 
+void t19() {
+  HasPtrValue hpv("hello");
+  cout << hpv.ps << endl;
+  HasPtrValue hpv2(std::move(hpv));
+  cout << hpv.ps << endl;
+  cout << hpv2.ps << endl;
+
+  hpv2 = std::move(hpv2);
+  cout << hpv2.ps << endl;
+  cout << *hpv2.ps << endl;
+}
+
 int main(int argc, char *argv[]) {
   // t1();
   // t2();
@@ -538,6 +552,7 @@ int main(int argc, char *argv[]) {
   // t15();
   // t16();
   // t17();
-  t18();
+  // t18();
+  t19();
   return 0;
 }

@@ -2,7 +2,6 @@
 #define TCP_SOCKET_H_
 
 #include <netinet/in.h>
-#include <unistd.h>
 
 #include <string>
 

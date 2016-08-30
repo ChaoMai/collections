@@ -7,8 +7,8 @@
 #include <sstream>
 #include <string>
 #include <type_traits>
-#include <vector>
 #include <utility>
+#include <vector>
 
 #include "blob.h"
 #include "blobptr.h"
@@ -31,6 +31,7 @@ using std::max;
 using std::ostringstream;
 using std::remove_reference;
 using std::shared_ptr;
+using std::size_t;
 using std::string;
 using std::unique_ptr;
 using std::vector;
@@ -72,7 +73,7 @@ void t2() {
 }
 
 template <unsigned N, unsigned M>
-int compare_literal(const char(&p1)[N], const char(&p2)[M]) {
+int compare_literal(const char (&p1)[N], const char (&p2)[M]) {
   cout << "strcmp" << endl;
   return strcmp(p1, p2);
 }
@@ -104,7 +105,7 @@ void t4() {
 }
 
 template <typename T, size_t N>
-void print_array(const T(&arr)[N]) {
+void print_array(const T (&arr)[N]) {
   for (size_t i = 0; i < N; ++i) {
     cout << arr[i] << " ";
   }
@@ -130,13 +131,13 @@ void t5() {
 }
 
 template <typename T, size_t N>
-T *arr_begin(T(&arr)[N]) {
+T *arr_begin(T (&arr)[N]) {
   return static_cast<T *>(arr);
 }
 
 // 形参和返回值都不能是const
 template <typename T, size_t N>
-T *arr_end(T(&arr)[N]) {
+T *arr_end(T (&arr)[N]) {
   return static_cast<T *>(arr + N);
 }
 
@@ -148,7 +149,7 @@ void t6() {
 
 // 返回值必须指定constexpr
 template <typename T, size_t N>
-constexpr size_t constexpr_arr_size(T(&arr)[N]) {
+constexpr size_t constexpr_arr_size(T (&arr)[N]) {
   return N;
 }
 
@@ -724,6 +725,29 @@ void t32() {
   // string const *&rps = ps; // error
 }
 
+template <typename T, size_t N>
+T *arr_b(T (&arr)[N]) {
+  return arr;
+}
+
+template <typename T, size_t N>
+T *arr_e(T (&arr)[N]) {
+  return arr + N;
+}
+
+template <typename T, size_t N>
+size_t arr_s(T (&arr)[N]) {
+  return N;
+}
+
+void t33() {
+  int a[5] = {1, 2, 3, 4, 50};
+
+  cout << *arr_b(a) << endl;
+  cout << *(arr_e(a) - 1) << endl;
+  cout << arr_s(a) << endl;
+}
+
 int main(int argc, char *argv[]) {
   // t1();
   // t2();
@@ -756,6 +780,7 @@ int main(int argc, char *argv[]) {
   // t29();
   // t30();
   // t31();
-  t32();
+  // t32();
+  t33();
   return 0;
 }
