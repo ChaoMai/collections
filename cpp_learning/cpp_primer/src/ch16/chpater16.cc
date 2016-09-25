@@ -748,6 +748,19 @@ void t33() {
   cout << arr_s(a) << endl;
 }
 
+template <typename T>
+void forward_test(T &&t) {
+  t = 100;
+}
+
+void t34() {
+  int i = 10;
+  int &ri = i;
+
+  forward_test(ri);
+  cout << i << endl;
+}
+
 int main(int argc, char *argv[]) {
   // t1();
   // t2();
@@ -781,6 +794,7 @@ int main(int argc, char *argv[]) {
   // t30();
   // t31();
   // t32();
-  t33();
+  // t33();
+  t34();
   return 0;
 }
