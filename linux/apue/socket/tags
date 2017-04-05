@@ -1,0 +1,622 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ARCHITECTURE_ID	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	396;"	d	language:C	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	399;"	d	language:C	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	402;"	d	language:C	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	406;"	d	language:C	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	408;"	d	language:C	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	410;"	d	language:C	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	414;"	d	language:C	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	417;"	d	language:C	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	420;"	d	language:C	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	425;"	d	language:C	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	428;"	d	language:C	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	431;"	d	language:C	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	435;"	d	language:C	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	391;"	d	language:C++	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	394;"	d	language:C++	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	397;"	d	language:C++	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	401;"	d	language:C++	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	403;"	d	language:C++	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	405;"	d	language:C++	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	409;"	d	language:C++	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	412;"	d	language:C++	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	415;"	d	language:C++	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	420;"	d	language:C++	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	423;"	d	language:C++	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	426;"	d	language:C++	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	430;"	d	language:C++	file:
+CMAKE_BINARY_DIR	build/Makefile	/^CMAKE_BINARY_DIR = \/home\/chaomai\/Documents\/Codes\/Current\/GitHub\/learning\/linux\/apue\/socket\/build$/;"	m	language:Make
+CMAKE_BINARY_DIR	build/src/Makefile	/^CMAKE_BINARY_DIR = \/home\/chaomai\/Documents\/Codes\/Current\/GitHub\/learning\/linux\/apue\/socket\/build$/;"	m	language:Make
+CMAKE_BINARY_DIR	build/src/echo/Makefile	/^CMAKE_BINARY_DIR = \/home\/chaomai\/Documents\/Codes\/Current\/GitHub\/learning\/linux\/apue\/socket\/build$/;"	m	language:Make
+CMAKE_BINARY_DIR	build/src/temp/Makefile	/^CMAKE_BINARY_DIR = \/home\/chaomai\/Documents\/Codes\/Current\/GitHub\/learning\/linux\/apue\/socket\/build$/;"	m	language:Make
+CMAKE_BINARY_DIR	build/src/tldp_echo/Makefile	/^CMAKE_BINARY_DIR = \/home\/chaomai\/Documents\/Codes\/Current\/GitHub\/learning\/linux\/apue\/socket\/build$/;"	m	language:Make
+CMAKE_BINARY_DIR	build/src/udp_echo/Makefile	/^CMAKE_BINARY_DIR = \/home\/chaomai\/Documents\/Codes\/Current\/GitHub\/learning\/linux\/apue\/socket\/build$/;"	m	language:Make
+CMAKE_COMMAND	build/Makefile	/^CMAKE_COMMAND = \/usr\/bin\/cmake$/;"	m	language:Make
+CMAKE_COMMAND	build/src/Makefile	/^CMAKE_COMMAND = \/usr\/bin\/cmake$/;"	m	language:Make
+CMAKE_COMMAND	build/src/echo/Makefile	/^CMAKE_COMMAND = \/usr\/bin\/cmake$/;"	m	language:Make
+CMAKE_COMMAND	build/src/temp/Makefile	/^CMAKE_COMMAND = \/usr\/bin\/cmake$/;"	m	language:Make
+CMAKE_COMMAND	build/src/tldp_echo/Makefile	/^CMAKE_COMMAND = \/usr\/bin\/cmake$/;"	m	language:Make
+CMAKE_COMMAND	build/src/udp_echo/Makefile	/^CMAKE_COMMAND = \/usr\/bin\/cmake$/;"	m	language:Make
+CMAKE_SOURCE_DIR	build/Makefile	/^CMAKE_SOURCE_DIR = \/home\/chaomai\/Documents\/Codes\/Current\/GitHub\/learning\/linux\/apue\/socket$/;"	m	language:Make
+CMAKE_SOURCE_DIR	build/src/Makefile	/^CMAKE_SOURCE_DIR = \/home\/chaomai\/Documents\/Codes\/Current\/GitHub\/learning\/linux\/apue\/socket$/;"	m	language:Make
+CMAKE_SOURCE_DIR	build/src/echo/Makefile	/^CMAKE_SOURCE_DIR = \/home\/chaomai\/Documents\/Codes\/Current\/GitHub\/learning\/linux\/apue\/socket$/;"	m	language:Make
+CMAKE_SOURCE_DIR	build/src/temp/Makefile	/^CMAKE_SOURCE_DIR = \/home\/chaomai\/Documents\/Codes\/Current\/GitHub\/learning\/linux\/apue\/socket$/;"	m	language:Make
+CMAKE_SOURCE_DIR	build/src/tldp_echo/Makefile	/^CMAKE_SOURCE_DIR = \/home\/chaomai\/Documents\/Codes\/Current\/GitHub\/learning\/linux\/apue\/socket$/;"	m	language:Make
+CMAKE_SOURCE_DIR	build/src/udp_echo/Makefile	/^CMAKE_SOURCE_DIR = \/home\/chaomai\/Documents\/Codes\/Current\/GitHub\/learning\/linux\/apue\/socket$/;"	m	language:Make
+COMPILER_ID	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	103;"	d	language:C	file:
+COMPILER_ID	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	110;"	d	language:C	file:
+COMPILER_ID	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	117;"	d	language:C	file:
+COMPILER_ID	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	124;"	d	language:C	file:
+COMPILER_ID	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	132;"	d	language:C	file:
+COMPILER_ID	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	137;"	d	language:C	file:
+COMPILER_ID	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	144;"	d	language:C	file:
+COMPILER_ID	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	147;"	d	language:C	file:
+COMPILER_ID	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	14;"	d	language:C	file:
+COMPILER_ID	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	150;"	d	language:C	file:
+COMPILER_ID	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	153;"	d	language:C	file:
+COMPILER_ID	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	168;"	d	language:C	file:
+COMPILER_ID	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	182;"	d	language:C	file:
+COMPILER_ID	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	192;"	d	language:C	file:
+COMPILER_ID	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	210;"	d	language:C	file:
+COMPILER_ID	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	219;"	d	language:C	file:
+COMPILER_ID	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	222;"	d	language:C	file:
+COMPILER_ID	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	237;"	d	language:C	file:
+COMPILER_ID	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	244;"	d	language:C	file:
+COMPILER_ID	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	262;"	d	language:C	file:
+COMPILER_ID	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	265;"	d	language:C	file:
+COMPILER_ID	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	268;"	d	language:C	file:
+COMPILER_ID	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	37;"	d	language:C	file:
+COMPILER_ID	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	45;"	d	language:C	file:
+COMPILER_ID	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	51;"	d	language:C	file:
+COMPILER_ID	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	57;"	d	language:C	file:
+COMPILER_ID	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	66;"	d	language:C	file:
+COMPILER_ID	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	75;"	d	language:C	file:
+COMPILER_ID	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	89;"	d	language:C	file:
+COMPILER_ID	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	96;"	d	language:C	file:
+COMPILER_ID	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	101;"	d	language:C++	file:
+COMPILER_ID	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	108;"	d	language:C++	file:
+COMPILER_ID	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	115;"	d	language:C++	file:
+COMPILER_ID	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	122;"	d	language:C++	file:
+COMPILER_ID	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	129;"	d	language:C++	file:
+COMPILER_ID	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	137;"	d	language:C++	file:
+COMPILER_ID	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	13;"	d	language:C++	file:
+COMPILER_ID	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	142;"	d	language:C++	file:
+COMPILER_ID	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	149;"	d	language:C++	file:
+COMPILER_ID	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	152;"	d	language:C++	file:
+COMPILER_ID	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	155;"	d	language:C++	file:
+COMPILER_ID	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	170;"	d	language:C++	file:
+COMPILER_ID	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	184;"	d	language:C++	file:
+COMPILER_ID	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	194;"	d	language:C++	file:
+COMPILER_ID	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	19;"	d	language:C++	file:
+COMPILER_ID	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	212;"	d	language:C++	file:
+COMPILER_ID	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	221;"	d	language:C++	file:
+COMPILER_ID	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	224;"	d	language:C++	file:
+COMPILER_ID	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	239;"	d	language:C++	file:
+COMPILER_ID	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	257;"	d	language:C++	file:
+COMPILER_ID	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	260;"	d	language:C++	file:
+COMPILER_ID	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	263;"	d	language:C++	file:
+COMPILER_ID	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	42;"	d	language:C++	file:
+COMPILER_ID	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	50;"	d	language:C++	file:
+COMPILER_ID	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	56;"	d	language:C++	file:
+COMPILER_ID	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	62;"	d	language:C++	file:
+COMPILER_ID	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	71;"	d	language:C++	file:
+COMPILER_ID	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	80;"	d	language:C++	file:
+COMPILER_ID	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	94;"	d	language:C++	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	105;"	d	language:C	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	112;"	d	language:C	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	119;"	d	language:C	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	125;"	d	language:C	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	133;"	d	language:C	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	139;"	d	language:C	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	157;"	d	language:C	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	172;"	d	language:C	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	183;"	d	language:C	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	194;"	d	language:C	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	19;"	d	language:C	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	213;"	d	language:C	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	225;"	d	language:C	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	230;"	d	language:C	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	239;"	d	language:C	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	247;"	d	language:C	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	252;"	d	language:C	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	38;"	d	language:C	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	46;"	d	language:C	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	53;"	d	language:C	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	59;"	d	language:C	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	68;"	d	language:C	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	78;"	d	language:C	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	83;"	d	language:C	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	91;"	d	language:C	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	98;"	d	language:C	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	103;"	d	language:C++	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	110;"	d	language:C++	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	117;"	d	language:C++	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	124;"	d	language:C++	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	130;"	d	language:C++	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	138;"	d	language:C++	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	144;"	d	language:C++	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	159;"	d	language:C++	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	15;"	d	language:C++	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	174;"	d	language:C++	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	185;"	d	language:C++	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	196;"	d	language:C++	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	215;"	d	language:C++	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	227;"	d	language:C++	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	232;"	d	language:C++	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	242;"	d	language:C++	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	247;"	d	language:C++	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	24;"	d	language:C++	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	43;"	d	language:C++	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	51;"	d	language:C++	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	58;"	d	language:C++	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	64;"	d	language:C++	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	73;"	d	language:C++	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	83;"	d	language:C++	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	88;"	d	language:C++	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	96;"	d	language:C++	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	106;"	d	language:C	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	113;"	d	language:C	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	120;"	d	language:C	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	126;"	d	language:C	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	134;"	d	language:C	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	140;"	d	language:C	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	158;"	d	language:C	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	173;"	d	language:C	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	185;"	d	language:C	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	195;"	d	language:C	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	20;"	d	language:C	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	214;"	d	language:C	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	226;"	d	language:C	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	231;"	d	language:C	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	240;"	d	language:C	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	248;"	d	language:C	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	253;"	d	language:C	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	39;"	d	language:C	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	47;"	d	language:C	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	54;"	d	language:C	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	60;"	d	language:C	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	69;"	d	language:C	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	79;"	d	language:C	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	84;"	d	language:C	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	92;"	d	language:C	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	99;"	d	language:C	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	104;"	d	language:C++	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	111;"	d	language:C++	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	118;"	d	language:C++	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	125;"	d	language:C++	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	131;"	d	language:C++	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	139;"	d	language:C++	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	145;"	d	language:C++	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	160;"	d	language:C++	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	16;"	d	language:C++	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	175;"	d	language:C++	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	187;"	d	language:C++	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	197;"	d	language:C++	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	216;"	d	language:C++	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	228;"	d	language:C++	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	233;"	d	language:C++	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	243;"	d	language:C++	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	248;"	d	language:C++	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	25;"	d	language:C++	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	44;"	d	language:C++	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	52;"	d	language:C++	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	59;"	d	language:C++	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	65;"	d	language:C++	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	74;"	d	language:C++	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	84;"	d	language:C++	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	89;"	d	language:C++	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	97;"	d	language:C++	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	100;"	d	language:C	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	107;"	d	language:C	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	114;"	d	language:C	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	121;"	d	language:C	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	128;"	d	language:C	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	141;"	d	language:C	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	159;"	d	language:C	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	174;"	d	language:C	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	188;"	d	language:C	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	199;"	d	language:C	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	202;"	d	language:C	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	215;"	d	language:C	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	227;"	d	language:C	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	22;"	d	language:C	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	232;"	d	language:C	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	241;"	d	language:C	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	249;"	d	language:C	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	24;"	d	language:C	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	254;"	d	language:C	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	41;"	d	language:C	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	48;"	d	language:C	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	62;"	d	language:C	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	71;"	d	language:C	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	80;"	d	language:C	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	85;"	d	language:C	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	93;"	d	language:C	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	105;"	d	language:C++	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	112;"	d	language:C++	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	119;"	d	language:C++	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	126;"	d	language:C++	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	133;"	d	language:C++	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	146;"	d	language:C++	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	161;"	d	language:C++	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	176;"	d	language:C++	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	190;"	d	language:C++	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	201;"	d	language:C++	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	204;"	d	language:C++	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	217;"	d	language:C++	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	229;"	d	language:C++	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	234;"	d	language:C++	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	244;"	d	language:C++	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	249;"	d	language:C++	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	27;"	d	language:C++	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	29;"	d	language:C++	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	46;"	d	language:C++	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	53;"	d	language:C++	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	67;"	d	language:C++	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	76;"	d	language:C++	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	85;"	d	language:C++	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	90;"	d	language:C++	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	98;"	d	language:C++	file:
+COMPILER_VERSION_TWEAK	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	165;"	d	language:C	file:
+COMPILER_VERSION_TWEAK	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	206;"	d	language:C	file:
+COMPILER_VERSION_TWEAK	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	28;"	d	language:C	file:
+COMPILER_VERSION_TWEAK	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	167;"	d	language:C++	file:
+COMPILER_VERSION_TWEAK	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	208;"	d	language:C++	file:
+COMPILER_VERSION_TWEAK	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	33;"	d	language:C++	file:
+ClientSocket	src/tldp_echo/ClientSocket.cpp	/^ClientSocket::ClientSocket ( std::string host, int port )$/;"	f	language:C++	class:ClientSocket	signature:( std::string host, int port )
+ClientSocket	src/tldp_echo/ClientSocket.h	/^  ClientSocket ( std::string host, int port );$/;"	p	language:C++	class:ClientSocket	access:public	signature:( std::string host, int port )
+ClientSocket	src/tldp_echo/ClientSocket.h	/^class ClientSocket : private Socket$/;"	c	language:C++	inherits:Socket
+ClientSocket::ClientSocket	src/tldp_echo/ClientSocket.cpp	/^ClientSocket::ClientSocket ( std::string host, int port )$/;"	f	language:C++	class:ClientSocket	signature:( std::string host, int port )
+ClientSocket::ClientSocket	src/tldp_echo/ClientSocket.h	/^  ClientSocket ( std::string host, int port );$/;"	p	language:C++	class:ClientSocket	access:public	signature:( std::string host, int port )
+ClientSocket::operator <<	src/tldp_echo/ClientSocket.cpp	/^const ClientSocket& ClientSocket::operator << ( const std::string& s ) const$/;"	f	language:C++	class:ClientSocket	signature:( const std::string& s ) const
+ClientSocket::operator <<	src/tldp_echo/ClientSocket.h	/^  const ClientSocket& operator << ( const std::string& ) const;$/;"	p	language:C++	class:ClientSocket	access:public	signature:( const std::string& ) const
+ClientSocket::operator >>	src/tldp_echo/ClientSocket.cpp	/^const ClientSocket& ClientSocket::operator >> ( std::string& s ) const$/;"	f	language:C++	class:ClientSocket	signature:( std::string& s ) const
+ClientSocket::operator >>	src/tldp_echo/ClientSocket.h	/^  const ClientSocket& operator >> ( std::string& ) const;$/;"	p	language:C++	class:ClientSocket	access:public	signature:( std::string& ) const
+ClientSocket::~ClientSocket	src/tldp_echo/ClientSocket.h	/^  virtual ~ClientSocket(){};$/;"	f	language:C++	class:ClientSocket	access:public	signature:()
+ClientSocket_class	src/tldp_echo/ClientSocket.h	4;"	d	language:C++
+DEC	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	439;"	d	language:C	file:
+DEC	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	434;"	d	language:C++	file:
+EQUALS	build/Makefile	/^EQUALS = =$/;"	m	language:Make
+EQUALS	build/src/Makefile	/^EQUALS = =$/;"	m	language:Make
+EQUALS	build/src/echo/Makefile	/^EQUALS = =$/;"	m	language:Make
+EQUALS	build/src/temp/Makefile	/^EQUALS = =$/;"	m	language:Make
+EQUALS	build/src/tldp_echo/Makefile	/^EQUALS = =$/;"	m	language:Make
+EQUALS	build/src/udp_echo/Makefile	/^EQUALS = =$/;"	m	language:Make
+ERR_EXIT	src/temp/main.cc	11;"	d	language:C++	file:
+ERR_EXIT	src/temp/main1.cc	11;"	d	language:C++	file:
+HEX	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	450;"	d	language:C	file:
+HEX	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	445;"	d	language:C++	file:
+ID_VOID_MAIN	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	6;"	d	language:C	file:
+MAXCONNECTIONS	src/tldp_echo/Socket.h	/^const int MAXCONNECTIONS = 5;$/;"	v	language:C++
+MAXHOSTNAME	src/tldp_echo/Socket.h	/^const int MAXHOSTNAME = 200;$/;"	v	language:C++
+MAXRECV	src/tldp_echo/Socket.h	/^const int MAXRECV = 500;$/;"	v	language:C++
+PLATFORM_ID	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	293;"	d	language:C	file:
+PLATFORM_ID	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	296;"	d	language:C	file:
+PLATFORM_ID	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	299;"	d	language:C	file:
+PLATFORM_ID	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	302;"	d	language:C	file:
+PLATFORM_ID	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	305;"	d	language:C	file:
+PLATFORM_ID	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	308;"	d	language:C	file:
+PLATFORM_ID	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	311;"	d	language:C	file:
+PLATFORM_ID	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	314;"	d	language:C	file:
+PLATFORM_ID	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	317;"	d	language:C	file:
+PLATFORM_ID	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	320;"	d	language:C	file:
+PLATFORM_ID	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	323;"	d	language:C	file:
+PLATFORM_ID	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	326;"	d	language:C	file:
+PLATFORM_ID	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	329;"	d	language:C	file:
+PLATFORM_ID	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	332;"	d	language:C	file:
+PLATFORM_ID	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	335;"	d	language:C	file:
+PLATFORM_ID	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	338;"	d	language:C	file:
+PLATFORM_ID	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	341;"	d	language:C	file:
+PLATFORM_ID	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	344;"	d	language:C	file:
+PLATFORM_ID	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	347;"	d	language:C	file:
+PLATFORM_ID	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	350;"	d	language:C	file:
+PLATFORM_ID	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	353;"	d	language:C	file:
+PLATFORM_ID	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	356;"	d	language:C	file:
+PLATFORM_ID	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	359;"	d	language:C	file:
+PLATFORM_ID	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	362;"	d	language:C	file:
+PLATFORM_ID	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	365;"	d	language:C	file:
+PLATFORM_ID	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	369;"	d	language:C	file:
+PLATFORM_ID	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	372;"	d	language:C	file:
+PLATFORM_ID	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	375;"	d	language:C	file:
+PLATFORM_ID	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	378;"	d	language:C	file:
+PLATFORM_ID	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	381;"	d	language:C	file:
+PLATFORM_ID	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	385;"	d	language:C	file:
+PLATFORM_ID	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	288;"	d	language:C++	file:
+PLATFORM_ID	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	291;"	d	language:C++	file:
+PLATFORM_ID	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	294;"	d	language:C++	file:
+PLATFORM_ID	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	297;"	d	language:C++	file:
+PLATFORM_ID	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	300;"	d	language:C++	file:
+PLATFORM_ID	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	303;"	d	language:C++	file:
+PLATFORM_ID	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	306;"	d	language:C++	file:
+PLATFORM_ID	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	309;"	d	language:C++	file:
+PLATFORM_ID	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	312;"	d	language:C++	file:
+PLATFORM_ID	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	315;"	d	language:C++	file:
+PLATFORM_ID	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	318;"	d	language:C++	file:
+PLATFORM_ID	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	321;"	d	language:C++	file:
+PLATFORM_ID	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	324;"	d	language:C++	file:
+PLATFORM_ID	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	327;"	d	language:C++	file:
+PLATFORM_ID	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	330;"	d	language:C++	file:
+PLATFORM_ID	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	333;"	d	language:C++	file:
+PLATFORM_ID	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	336;"	d	language:C++	file:
+PLATFORM_ID	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	339;"	d	language:C++	file:
+PLATFORM_ID	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	342;"	d	language:C++	file:
+PLATFORM_ID	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	345;"	d	language:C++	file:
+PLATFORM_ID	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	348;"	d	language:C++	file:
+PLATFORM_ID	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	351;"	d	language:C++	file:
+PLATFORM_ID	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	354;"	d	language:C++	file:
+PLATFORM_ID	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	357;"	d	language:C++	file:
+PLATFORM_ID	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	360;"	d	language:C++	file:
+PLATFORM_ID	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	364;"	d	language:C++	file:
+PLATFORM_ID	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	367;"	d	language:C++	file:
+PLATFORM_ID	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	370;"	d	language:C++	file:
+PLATFORM_ID	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	373;"	d	language:C++	file:
+PLATFORM_ID	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	376;"	d	language:C++	file:
+PLATFORM_ID	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	380;"	d	language:C++	file:
+RM	build/Makefile	/^RM = \/usr\/bin\/cmake -E remove -f$/;"	m	language:Make
+RM	build/src/Makefile	/^RM = \/usr\/bin\/cmake -E remove -f$/;"	m	language:Make
+RM	build/src/echo/Makefile	/^RM = \/usr\/bin\/cmake -E remove -f$/;"	m	language:Make
+RM	build/src/temp/Makefile	/^RM = \/usr\/bin\/cmake -E remove -f$/;"	m	language:Make
+RM	build/src/tldp_echo/Makefile	/^RM = \/usr\/bin\/cmake -E remove -f$/;"	m	language:Make
+RM	build/src/udp_echo/Makefile	/^RM = \/usr\/bin\/cmake -E remove -f$/;"	m	language:Make
+SHELL	build/Makefile	/^SHELL = \/bin\/sh$/;"	m	language:Make
+SHELL	build/src/Makefile	/^SHELL = \/bin\/sh$/;"	m	language:Make
+SHELL	build/src/echo/Makefile	/^SHELL = \/bin\/sh$/;"	m	language:Make
+SHELL	build/src/temp/Makefile	/^SHELL = \/bin\/sh$/;"	m	language:Make
+SHELL	build/src/tldp_echo/Makefile	/^SHELL = \/bin\/sh$/;"	m	language:Make
+SHELL	build/src/udp_echo/Makefile	/^SHELL = \/bin\/sh$/;"	m	language:Make
+SIMULATE_ID	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	155;"	d	language:C	file:
+SIMULATE_ID	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	16;"	d	language:C	file:
+SIMULATE_ID	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	170;"	d	language:C	file:
+SIMULATE_ID	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	157;"	d	language:C++	file:
+SIMULATE_ID	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	172;"	d	language:C++	file:
+SIMULATE_ID	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	21;"	d	language:C++	file:
+SIMULATE_VERSION_MAJOR	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	162;"	d	language:C	file:
+SIMULATE_VERSION_MAJOR	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	177;"	d	language:C	file:
+SIMULATE_VERSION_MAJOR	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	32;"	d	language:C	file:
+SIMULATE_VERSION_MAJOR	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	164;"	d	language:C++	file:
+SIMULATE_VERSION_MAJOR	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	179;"	d	language:C++	file:
+SIMULATE_VERSION_MAJOR	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	37;"	d	language:C++	file:
+SIMULATE_VERSION_MINOR	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	163;"	d	language:C	file:
+SIMULATE_VERSION_MINOR	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	178;"	d	language:C	file:
+SIMULATE_VERSION_MINOR	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	33;"	d	language:C	file:
+SIMULATE_VERSION_MINOR	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	165;"	d	language:C++	file:
+SIMULATE_VERSION_MINOR	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	180;"	d	language:C++	file:
+SIMULATE_VERSION_MINOR	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	38;"	d	language:C++	file:
+STRINGIFY	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	289;"	d	language:C	file:
+STRINGIFY	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	284;"	d	language:C++	file:
+STRINGIFY_HELPER	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	288;"	d	language:C	file:
+STRINGIFY_HELPER	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	283;"	d	language:C++	file:
+SUFFIXES	build/Makefile	/^SUFFIXES =$/;"	m	language:Make
+SUFFIXES	build/src/Makefile	/^SUFFIXES =$/;"	m	language:Make
+SUFFIXES	build/src/echo/Makefile	/^SUFFIXES =$/;"	m	language:Make
+SUFFIXES	build/src/temp/Makefile	/^SUFFIXES =$/;"	m	language:Make
+SUFFIXES	build/src/tldp_echo/Makefile	/^SUFFIXES =$/;"	m	language:Make
+SUFFIXES	build/src/udp_echo/Makefile	/^SUFFIXES =$/;"	m	language:Make
+ServerSocket	src/tldp_echo/ServerSocket.cpp	/^ServerSocket::ServerSocket ( int port )$/;"	f	language:C++	class:ServerSocket	signature:( int port )
+ServerSocket	src/tldp_echo/ServerSocket.h	/^  ServerSocket ( int port );$/;"	p	language:C++	class:ServerSocket	access:public	signature:( int port )
+ServerSocket	src/tldp_echo/ServerSocket.h	/^  ServerSocket (){};$/;"	f	language:C++	class:ServerSocket	access:public	signature:()
+ServerSocket	src/tldp_echo/ServerSocket.h	/^class ServerSocket : private Socket$/;"	c	language:C++	inherits:Socket
+ServerSocket::ServerSocket	src/tldp_echo/ServerSocket.cpp	/^ServerSocket::ServerSocket ( int port )$/;"	f	language:C++	class:ServerSocket	signature:( int port )
+ServerSocket::ServerSocket	src/tldp_echo/ServerSocket.h	/^  ServerSocket ( int port );$/;"	p	language:C++	class:ServerSocket	access:public	signature:( int port )
+ServerSocket::ServerSocket	src/tldp_echo/ServerSocket.h	/^  ServerSocket (){};$/;"	f	language:C++	class:ServerSocket	access:public	signature:()
+ServerSocket::accept	src/tldp_echo/ServerSocket.cpp	/^void ServerSocket::accept ( ServerSocket& sock )$/;"	f	language:C++	class:ServerSocket	signature:( ServerSocket& sock )
+ServerSocket::accept	src/tldp_echo/ServerSocket.h	/^  void accept ( ServerSocket& );$/;"	p	language:C++	class:ServerSocket	access:public	signature:( ServerSocket& )
+ServerSocket::operator <<	src/tldp_echo/ServerSocket.cpp	/^const ServerSocket& ServerSocket::operator << ( const std::string& s ) const$/;"	f	language:C++	class:ServerSocket	signature:( const std::string& s ) const
+ServerSocket::operator <<	src/tldp_echo/ServerSocket.h	/^  const ServerSocket& operator << ( const std::string& ) const;$/;"	p	language:C++	class:ServerSocket	access:public	signature:( const std::string& ) const
+ServerSocket::operator >>	src/tldp_echo/ServerSocket.cpp	/^const ServerSocket& ServerSocket::operator >> ( std::string& s ) const$/;"	f	language:C++	class:ServerSocket	signature:( std::string& s ) const
+ServerSocket::operator >>	src/tldp_echo/ServerSocket.h	/^  const ServerSocket& operator >> ( std::string& ) const;$/;"	p	language:C++	class:ServerSocket	access:public	signature:( std::string& ) const
+ServerSocket::~ServerSocket	src/tldp_echo/ServerSocket.cpp	/^ServerSocket::~ServerSocket()$/;"	f	language:C++	class:ServerSocket	signature:()
+ServerSocket::~ServerSocket	src/tldp_echo/ServerSocket.h	/^  virtual ~ServerSocket();$/;"	p	language:C++	class:ServerSocket	access:public	signature:()
+ServerSocket_class	src/tldp_echo/ServerSocket.h	4;"	d	language:C++
+Socket	src/tldp_echo/Socket.cpp	/^Socket::Socket() : m_sock(-1) { memset(&m_addr, 0, sizeof(m_addr)); }$/;"	f	language:C++	class:Socket	signature:()
+Socket	src/tldp_echo/Socket.h	/^  Socket();$/;"	p	language:C++	class:Socket	access:public	signature:()
+Socket	src/tldp_echo/Socket.h	/^class Socket$/;"	c	language:C++
+Socket::Socket	src/tldp_echo/Socket.cpp	/^Socket::Socket() : m_sock(-1) { memset(&m_addr, 0, sizeof(m_addr)); }$/;"	f	language:C++	class:Socket	signature:()
+Socket::Socket	src/tldp_echo/Socket.h	/^  Socket();$/;"	p	language:C++	class:Socket	access:public	signature:()
+Socket::accept	src/tldp_echo/Socket.cpp	/^bool Socket::accept(Socket& new_socket) const {$/;"	f	language:C++	class:Socket	signature:(Socket& new_socket) const
+Socket::accept	src/tldp_echo/Socket.h	/^  bool accept ( Socket& ) const;$/;"	p	language:C++	class:Socket	access:public	signature:( Socket& ) const
+Socket::bind	src/tldp_echo/Socket.cpp	/^bool Socket::bind(const int port) {$/;"	f	language:C++	class:Socket	signature:(const int port)
+Socket::bind	src/tldp_echo/Socket.h	/^  bool bind ( const int port );$/;"	p	language:C++	class:Socket	access:public	signature:( const int port )
+Socket::connect	src/tldp_echo/Socket.cpp	/^bool Socket::connect(const std::string host, const int port) {$/;"	f	language:C++	class:Socket	signature:(const std::string host, const int port)
+Socket::connect	src/tldp_echo/Socket.h	/^  bool connect ( const std::string host, const int port );$/;"	p	language:C++	class:Socket	access:public	signature:( const std::string host, const int port )
+Socket::create	src/tldp_echo/Socket.cpp	/^bool Socket::create() {$/;"	f	language:C++	class:Socket	signature:()
+Socket::create	src/tldp_echo/Socket.h	/^  bool create();$/;"	p	language:C++	class:Socket	access:public	signature:()
+Socket::is_valid	src/tldp_echo/Socket.h	/^  bool is_valid() const { return m_sock != -1; }$/;"	f	language:C++	class:Socket	access:public	signature:() const
+Socket::listen	src/tldp_echo/Socket.cpp	/^bool Socket::listen() const {$/;"	f	language:C++	class:Socket	signature:() const
+Socket::listen	src/tldp_echo/Socket.h	/^  bool listen() const;$/;"	p	language:C++	class:Socket	access:public	signature:() const
+Socket::m_addr	src/tldp_echo/Socket.h	/^  sockaddr_in m_addr;$/;"	m	language:C++	class:Socket	access:private
+Socket::m_sock	src/tldp_echo/Socket.h	/^  int m_sock;$/;"	m	language:C++	class:Socket	access:private
+Socket::recv	src/tldp_echo/Socket.cpp	/^int Socket::recv(std::string& s) const {$/;"	f	language:C++	class:Socket	signature:(std::string& s) const
+Socket::recv	src/tldp_echo/Socket.h	/^  int recv ( std::string& ) const;$/;"	p	language:C++	class:Socket	access:public	signature:( std::string& ) const
+Socket::send	src/tldp_echo/Socket.cpp	/^bool Socket::send(const std::string s) const {$/;"	f	language:C++	class:Socket	signature:(const std::string s) const
+Socket::send	src/tldp_echo/Socket.h	/^  bool send ( const std::string ) const;$/;"	p	language:C++	class:Socket	access:public	signature:( const std::string ) const
+Socket::set_non_blocking	src/tldp_echo/Socket.cpp	/^void Socket::set_non_blocking(const bool b) {$/;"	f	language:C++	class:Socket	signature:(const bool b)
+Socket::set_non_blocking	src/tldp_echo/Socket.h	/^  void set_non_blocking ( const bool );$/;"	p	language:C++	class:Socket	access:public	signature:( const bool )
+Socket::~Socket	src/tldp_echo/Socket.cpp	/^Socket::~Socket() {$/;"	f	language:C++	class:Socket	signature:()
+Socket::~Socket	src/tldp_echo/Socket.h	/^  virtual ~Socket();$/;"	p	language:C++	class:Socket	access:public	signature:()
+SocketException	src/tldp_echo/SocketException.h	/^  SocketException ( std::string s ) : m_s ( s ) {};$/;"	f	language:C++	class:SocketException	access:public	signature:( std::string s )
+SocketException	src/tldp_echo/SocketException.h	/^class SocketException$/;"	c	language:C++
+SocketException::SocketException	src/tldp_echo/SocketException.h	/^  SocketException ( std::string s ) : m_s ( s ) {};$/;"	f	language:C++	class:SocketException	access:public	signature:( std::string s )
+SocketException::description	src/tldp_echo/SocketException.h	/^  std::string description() { return m_s; }$/;"	f	language:C++	class:SocketException	access:public	signature:()
+SocketException::m_s	src/tldp_echo/SocketException.h	/^  std::string m_s;$/;"	m	language:C++	class:SocketException	access:private
+SocketException::~SocketException	src/tldp_echo/SocketException.h	/^  ~SocketException (){};$/;"	f	language:C++	class:SocketException	access:public	signature:()
+SocketException_class	src/tldp_echo/SocketException.h	5;"	d	language:C++
+Socket_class	src/tldp_echo/Socket.h	4;"	d	language:C++
+accept	src/tldp_echo/ServerSocket.cpp	/^void ServerSocket::accept ( ServerSocket& sock )$/;"	f	language:C++	class:ServerSocket	signature:( ServerSocket& sock )
+accept	src/tldp_echo/ServerSocket.h	/^  void accept ( ServerSocket& );$/;"	p	language:C++	class:ServerSocket	access:public	signature:( ServerSocket& )
+accept	src/tldp_echo/Socket.cpp	/^bool Socket::accept(Socket& new_socket) const {$/;"	f	language:C++	class:Socket	signature:(Socket& new_socket) const
+accept	src/tldp_echo/Socket.h	/^  bool accept ( Socket& ) const;$/;"	p	language:C++	class:Socket	access:public	signature:( Socket& ) const
+accept	src/tldp_echo/simple_server_main.cpp	/^      server.accept(new_sock);$/;"	p	language:C++	file:	signature:(new_sock)
+addr	src/echo/client.cc	/^  sockaddr_in addr;$/;"	l	language:C++
+addr	src/echo/server.cc	/^  sockaddr_in addr;$/;"	l	language:C++
+addr	src/udp_echo/client.cc	/^  sockaddr_in addr;$/;"	l	language:C++
+addr	src/udp_echo/server.cc	/^  sockaddr_in addr;$/;"	l	language:C++
+addr_length	src/tldp_echo/Socket.cpp	/^  int addr_length = sizeof(m_addr);$/;"	l	language:C++
+begin	src/echo/server.cc	/^    fill(begin(buf), end(buf), 0);$/;"	p	language:C++	file:	signature:(buf)
+begin	src/udp_echo/server.cc	/^    fill(begin(buf), end(buf), 0);$/;"	p	language:C++	file:	signature:(buf)
+bind	src/tldp_echo/Socket.cpp	/^bool Socket::bind(const int port) {$/;"	f	language:C++	class:Socket	signature:(const int port)
+bind	src/tldp_echo/Socket.h	/^  bool bind ( const int port );$/;"	p	language:C++	class:Socket	access:public	signature:( const int port )
+bind_return	src/tldp_echo/Socket.cpp	/^  int bind_return = ::bind(m_sock, (struct sockaddr*)&m_addr, sizeof(m_addr));$/;"	l	language:C++
+buf	src/echo/client.cc	/^    char buf[sz] = {};$/;"	l	language:C++
+buf	src/echo/server.cc	/^  char buf[sz] = {};$/;"	l	language:C++
+buf	src/tldp_echo/Socket.cpp	/^  char buf[MAXRECV + 1];$/;"	l	language:C++
+buf	src/udp_echo/client.cc	/^    char buf[sz] = {};$/;"	l	language:C++
+buf	src/udp_echo/server.cc	/^  char buf[sz] = {};$/;"	l	language:C++
+cfd	src/echo/server.cc	/^  auto cfd = accept(fd, 0, 0);$/;"	l	language:C++
+connect	src/tldp_echo/Socket.cpp	/^bool Socket::connect(const std::string host, const int port) {$/;"	f	language:C++	class:Socket	signature:(const std::string host, const int port)
+connect	src/tldp_echo/Socket.h	/^  bool connect ( const std::string host, const int port );$/;"	p	language:C++	class:Socket	access:public	signature:( const std::string host, const int port )
+cout	src/tldp_echo/simple_server_main.cpp	/^  std::cout << "running....\\n";$/;"	m	language:C++	class:std	file:
+create	src/tldp_echo/Socket.cpp	/^bool Socket::create() {$/;"	f	language:C++	class:Socket	signature:()
+create	src/tldp_echo/Socket.h	/^  bool create();$/;"	p	language:C++	class:Socket	access:public	signature:()
+data	src/tldp_echo/simple_server_main.cpp	/^          new_sock << data;$/;"	l	language:C++
+data	src/tldp_echo/simple_server_main.cpp	/^          new_sock >> data;$/;"	l	language:C++
+data	src/tldp_echo/simple_server_main.cpp	/^          std::string data;$/;"	l	language:C++
+description	src/tldp_echo/SocketException.h	/^  std::string description() { return m_s; }$/;"	f	language:C++	class:SocketException	access:public	signature:()
+echo_cli	src/temp/main1.cc	/^void echo_cli(int sock) {$/;"	f	language:C++	signature:(int sock)
+echo_ser	src/temp/main.cc	/^void echo_ser(int sock) {$/;"	f	language:C++	signature:(int sock)
+end	src/echo/server.cc	/^    fill(begin(buf), end(buf), 0);$/;"	p	language:C++	file:	signature:(buf)
+end	src/udp_echo/server.cc	/^    fill(begin(buf), end(buf), 0);$/;"	p	language:C++	file:	signature:(buf)
+endl	src/echo/client.cc	/^      cout << "no messages available" << endl;$/;"	l	language:C++
+endl	src/echo/client.cc	/^      cout << "receive error" << endl;$/;"	l	language:C++
+endl	src/echo/client.cc	/^      cout << "send error" << endl;$/;"	l	language:C++
+endl	src/echo/client.cc	/^    cout << "connect error" << endl;$/;"	l	language:C++
+endl	src/echo/client.cc	/^    cout << "create socket error" << endl;$/;"	l	language:C++
+endl	src/echo/client.cc	/^    cout << "from server: " << buf << endl;$/;"	l	language:C++
+endl	src/echo/server.cc	/^      cout << "send error" << endl;$/;"	l	language:C++
+endl	src/echo/server.cc	/^    cout << "accept socket error" << endl;$/;"	l	language:C++
+endl	src/echo/server.cc	/^    cout << "bind socket error" << endl;$/;"	l	language:C++
+endl	src/echo/server.cc	/^    cout << "create socket error" << endl;$/;"	l	language:C++
+endl	src/echo/server.cc	/^    cout << "listen socket error" << endl;$/;"	l	language:C++
+endl	src/echo/server.cc	/^    cout << "no messages available" << endl;$/;"	l	language:C++
+endl	src/echo/server.cc	/^    cout << "receive error" << endl;$/;"	l	language:C++
+endl	src/echo/server.cc	/^    cout << buf << endl;$/;"	l	language:C++
+endl	src/udp_echo/client.cc	/^      cout << "no messages available" << endl;$/;"	l	language:C++
+endl	src/udp_echo/client.cc	/^      cout << "receive error" << endl;$/;"	l	language:C++
+endl	src/udp_echo/client.cc	/^      cout << "sendto error" << endl;$/;"	l	language:C++
+endl	src/udp_echo/client.cc	/^    cout << "create socket error" << endl;$/;"	l	language:C++
+endl	src/udp_echo/client.cc	/^    cout << "from server: " << buf << endl;$/;"	l	language:C++
+endl	src/udp_echo/server.cc	/^      cout << "sendto error" << endl;$/;"	l	language:C++
+endl	src/udp_echo/server.cc	/^    cout << "bind socket error" << endl;$/;"	l	language:C++
+endl	src/udp_echo/server.cc	/^    cout << "create socket error" << endl;$/;"	l	language:C++
+endl	src/udp_echo/server.cc	/^    cout << "no messages available" << endl;$/;"	l	language:C++
+endl	src/udp_echo/server.cc	/^    cout << "receive error" << endl;$/;"	l	language:C++
+endl	src/udp_echo/server.cc	/^    cout << buf << endl;$/;"	l	language:C++
+errno	src/tldp_echo/Socket.cpp	/^    std::cout << "status == -1   errno == " << errno << "  in Socket::recv\\n";$/;"	l	language:C++
+fd	src/echo/client.cc	/^  auto fd = socket(AF_INET, SOCK_STREAM, 0);$/;"	l	language:C++
+fd	src/echo/server.cc	/^  auto fd = socket(AF_INET, SOCK_STREAM, 0);$/;"	l	language:C++
+fd	src/udp_echo/client.cc	/^  auto fd = socket(AF_INET, SOCK_DGRAM, 0);$/;"	l	language:C++
+fd	src/udp_echo/server.cc	/^  auto fd = socket(AF_INET, SOCK_DGRAM, 0);$/;"	l	language:C++
+features	build/CMakeFiles/feature_tests.c	/^  const char features[] = {"\\n"$/;"	v	language:C
+features	build/CMakeFiles/feature_tests.cxx	/^  const char features[] = {"\\n"$/;"	v	language:C++
+info_arch	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	/^char const* info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";$/;"	v	language:C
+info_arch	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";$/;"	v	language:C++
+info_compiler	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	/^char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";$/;"	v	language:C
+info_compiler	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";$/;"	v	language:C++
+info_cray	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	/^char const *info_cray = "INFO" ":" "compiler_wrapper[CrayPrgEnv]";$/;"	v	language:C
+info_cray	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const *info_cray = "INFO" ":" "compiler_wrapper[CrayPrgEnv]";$/;"	v	language:C++
+info_language_dialect_default	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	/^const char* info_language_dialect_default = "INFO" ":" "dialect_default["$/;"	v	language:C
+info_language_dialect_default	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^const char* info_language_dialect_default = "INFO" ":" "dialect_default["$/;"	v	language:C++
+info_platform	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	/^char const* info_platform = "INFO" ":" "platform[" PLATFORM_ID "]";$/;"	v	language:C
+info_platform	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_platform = "INFO" ":" "platform[" PLATFORM_ID "]";$/;"	v	language:C++
+info_simulate	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	/^char const* info_simulate = "INFO" ":" "simulate[" SIMULATE_ID "]";$/;"	v	language:C
+info_simulate	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_simulate = "INFO" ":" "simulate[" SIMULATE_ID "]";$/;"	v	language:C++
+info_simulate_version	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	/^char const info_simulate_version[] = {$/;"	v	language:C
+info_simulate_version	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const info_simulate_version[] = {$/;"	v	language:C++
+info_version	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	/^char const info_version[] = {$/;"	v	language:C
+info_version	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const info_version[] = {$/;"	v	language:C++
+init_client	src/echo/client.cc	/^int init_client() {$/;"	f	language:C++	signature:()
+init_client	src/echo/client.cc	/^int init_client();$/;"	p	language:C++	file:	signature:()
+init_client	src/udp_echo/client.cc	/^int init_client() {$/;"	f	language:C++	signature:()
+init_client	src/udp_echo/client.cc	/^int init_client();$/;"	p	language:C++	file:	signature:()
+init_server	src/echo/server.cc	/^int init_server() {$/;"	f	language:C++	signature:()
+init_server	src/echo/server.cc	/^int init_server();$/;"	p	language:C++	file:	signature:()
+init_server	src/udp_echo/server.cc	/^int init_server() {$/;"	f	language:C++	signature:()
+init_server	src/udp_echo/server.cc	/^int init_server();$/;"	p	language:C++	file:	signature:()
+is_valid	src/tldp_echo/Socket.h	/^  bool is_valid() const { return m_sock != -1; }$/;"	f	language:C++	class:Socket	access:public	signature:() const
+listen	src/tldp_echo/Socket.cpp	/^bool Socket::listen() const {$/;"	f	language:C++	class:Socket	signature:() const
+listen	src/tldp_echo/Socket.h	/^  bool listen() const;$/;"	p	language:C++	class:Socket	access:public	signature:() const
+listen_return	src/tldp_echo/Socket.cpp	/^  int listen_return = ::listen(m_sock, MAXCONNECTIONS);$/;"	l	language:C++
+m_addr	src/tldp_echo/Socket.h	/^  sockaddr_in m_addr;$/;"	m	language:C++	class:Socket	access:private
+m_s	src/tldp_echo/SocketException.h	/^  std::string m_s;$/;"	m	language:C++	class:SocketException	access:private
+m_sock	src/tldp_echo/Socket.h	/^  int m_sock;$/;"	m	language:C++	class:Socket	access:private
+main	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	/^int main(int argc, char* argv[])$/;"	f	language:C	signature:(int argc, char* argv[])
+main	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	/^void main() {}$/;"	f	language:C
+main	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^int main(int argc, char* argv[])$/;"	f	language:C++	signature:(int argc, char* argv[])
+main	build/CMakeFiles/feature_tests.c	/^int main(int argc, char** argv) { (void)argv; return features[argc]; }$/;"	f	language:C	signature:(int argc, char** argv)
+main	build/CMakeFiles/feature_tests.cxx	/^int main(int argc, char** argv) { (void)argv; return features[argc]; }$/;"	f	language:C++	signature:(int argc, char** argv)
+main	src/echo/client.cc	/^int main() {$/;"	f	language:C++	signature:()
+main	src/echo/server.cc	/^int main() {$/;"	f	language:C++	signature:()
+main	src/temp/main.cc	/^int main(void) {$/;"	f	language:C++	signature:(void)
+main	src/temp/main1.cc	/^int main(void) {$/;"	f	language:C++	signature:(void)
+main	src/tldp_echo/simple_client_main.cpp	/^int main() {$/;"	f	language:C++	signature:()
+main	src/tldp_echo/simple_server_main.cpp	/^int main() {$/;"	f	language:C++	signature:()
+main	src/udp_echo/client.cc	/^int main() {$/;"	f	language:C++	signature:()
+main	src/udp_echo/server.cc	/^int main() {$/;"	f	language:C++	signature:()
+n	src/temp/main.cc	/^  int n;$/;"	l	language:C++
+new_sock	src/tldp_echo/simple_server_main.cpp	/^      ServerSocket new_sock;$/;"	l	language:C++
+on	src/tldp_echo/Socket.cpp	/^  int on = 1;$/;"	l	language:C++
+operator <<	src/tldp_echo/ClientSocket.cpp	/^const ClientSocket& ClientSocket::operator << ( const std::string& s ) const$/;"	f	language:C++	class:ClientSocket	signature:( const std::string& s ) const
+operator <<	src/tldp_echo/ClientSocket.h	/^  const ClientSocket& operator << ( const std::string& ) const;$/;"	p	language:C++	class:ClientSocket	access:public	signature:( const std::string& ) const
+operator <<	src/tldp_echo/ServerSocket.cpp	/^const ServerSocket& ServerSocket::operator << ( const std::string& s ) const$/;"	f	language:C++	class:ServerSocket	signature:( const std::string& s ) const
+operator <<	src/tldp_echo/ServerSocket.h	/^  const ServerSocket& operator << ( const std::string& ) const;$/;"	p	language:C++	class:ServerSocket	access:public	signature:( const std::string& ) const
+operator >>	src/tldp_echo/ClientSocket.cpp	/^const ClientSocket& ClientSocket::operator >> ( std::string& s ) const$/;"	f	language:C++	class:ClientSocket	signature:( std::string& s ) const
+operator >>	src/tldp_echo/ClientSocket.h	/^  const ClientSocket& operator >> ( std::string& ) const;$/;"	p	language:C++	class:ClientSocket	access:public	signature:( std::string& ) const
+operator >>	src/tldp_echo/ServerSocket.cpp	/^const ServerSocket& ServerSocket::operator >> ( std::string& s ) const$/;"	f	language:C++	class:ServerSocket	signature:( std::string& s ) const
+operator >>	src/tldp_echo/ServerSocket.h	/^  const ServerSocket& operator >> ( std::string& ) const;$/;"	p	language:C++	class:ServerSocket	access:public	signature:( std::string& ) const
+opts	src/tldp_echo/Socket.cpp	/^  int opts;$/;"	l	language:C++
+peeraddr	src/temp/main.cc	/^  sockaddr_in peeraddr;$/;"	l	language:C++
+peerlen	src/temp/main.cc	/^  socklen_t peerlen;$/;"	l	language:C++
+print_info	src/echo/client.cc	/^void print_info(const sockaddr_in& addr) {$/;"	f	language:C++	signature:(const sockaddr_in& addr)
+print_info	src/echo/client.cc	/^void print_info(const sockaddr_in&);$/;"	p	language:C++	file:	signature:(const sockaddr_in&)
+print_info	src/echo/server.cc	/^void print_info(const sockaddr_in& addr) {$/;"	f	language:C++	signature:(const sockaddr_in& addr)
+print_info	src/echo/server.cc	/^void print_info(const sockaddr_in&);$/;"	p	language:C++	file:	signature:(const sockaddr_in&)
+qnxnto	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	/^char const* qnxnto = "INFO" ":" "qnxnto[]";$/;"	v	language:C
+qnxnto	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* qnxnto = "INFO" ":" "qnxnto[]";$/;"	v	language:C++
+rc	src/echo/client.cc	/^    auto rc = recv(fd, buf, sizeof(buf), 0);$/;"	l	language:C++
+rc	src/echo/server.cc	/^    cout << "from client: recv " << rc << " bytes\\n";$/;"	l	language:C++
+rc	src/echo/server.cc	/^  ssize_t rc;$/;"	l	language:C++
+rc	src/udp_echo/client.cc	/^    auto rc = recvfrom(fd, buf, sizeof(buf), 0, nullptr, nullptr);$/;"	l	language:C++
+rc	src/udp_echo/server.cc	/^    cout << "from client: recvfrom " << rc << " bytes\\n";$/;"	l	language:C++
+rc	src/udp_echo/server.cc	/^  ssize_t rc;$/;"	l	language:C++
+recv	src/tldp_echo/Socket.cpp	/^int Socket::recv(std::string& s) const {$/;"	f	language:C++	class:Socket	signature:(std::string& s) const
+recv	src/tldp_echo/Socket.h	/^  int recv ( std::string& ) const;$/;"	p	language:C++	class:Socket	access:public	signature:( std::string& ) const
+recvbuf	src/temp/main.cc	/^  char recvbuf[1024] = {0};$/;"	l	language:C++
+recvbuf	src/temp/main1.cc	/^  char recvbuf[1024] = {0};$/;"	l	language:C++
+reply	src/tldp_echo/simple_client_main.cpp	/^      client_socket >> reply;$/;"	l	language:C++
+reply	src/tldp_echo/simple_client_main.cpp	/^    std::cout << "We received this response from the server:\\n\\"" << reply$/;"	l	language:C++
+reply	src/tldp_echo/simple_client_main.cpp	/^    std::string reply;$/;"	l	language:C++
+require	build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c	/^  int require = 0;$/;"	l	language:C
+require	build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^  int require = 0;$/;"	l	language:C++
+ret	src/temp/main1.cc	/^  int ret;$/;"	l	language:C++
+send	src/tldp_echo/Socket.cpp	/^bool Socket::send(const std::string s) const {$/;"	f	language:C++	class:Socket	signature:(const std::string s) const
+send	src/tldp_echo/Socket.h	/^  bool send ( const std::string ) const;$/;"	p	language:C++	class:Socket	access:public	signature:( const std::string ) const
+sendbuf	src/temp/main1.cc	/^  char sendbuf[1024] = {0};$/;"	l	language:C++
+servaddr	src/temp/main.cc	/^  struct sockaddr_in servaddr;$/;"	l	language:C++
+servaddr	src/temp/main1.cc	/^  struct sockaddr_in servaddr;$/;"	l	language:C++
+set_non_blocking	src/tldp_echo/Socket.cpp	/^void Socket::set_non_blocking(const bool b) {$/;"	f	language:C++	class:Socket	signature:(const bool b)
+set_non_blocking	src/tldp_echo/Socket.h	/^  void set_non_blocking ( const bool );$/;"	p	language:C++	class:Socket	access:public	signature:( const bool )
+sock	src/temp/main.cc	/^  int sock;$/;"	l	language:C++
+sock	src/temp/main1.cc	/^  int sock;$/;"	l	language:C++
+source_addr	src/udp_echo/server.cc	/^  sockaddr_in source_addr;$/;"	l	language:C++
+source_addr_size	src/udp_echo/server.cc	/^  socklen_t source_addr_size;$/;"	l	language:C++
+status	src/tldp_echo/Socket.cpp	/^  int status = ::recv(m_sock, buf, MAXRECV, 0);$/;"	l	language:C++
+status	src/tldp_echo/Socket.cpp	/^  int status = ::send(m_sock, s.c_str(), s.size(), MSG_NOSIGNAL);$/;"	l	language:C++
+status	src/tldp_echo/Socket.cpp	/^  int status = inet_pton(AF_INET, host.c_str(), &m_addr.sin_addr);$/;"	l	language:C++
+std::cout	src/tldp_echo/simple_server_main.cpp	/^  std::cout << "running....\\n";$/;"	m	language:C++	class:std	file:
+sz	src/echo/client.cc	/^    constexpr int sz = 256;$/;"	l	language:C++
+sz	src/echo/server.cc	/^  constexpr int sz = 256;$/;"	l	language:C++
+sz	src/udp_echo/client.cc	/^    constexpr int sz = 256;$/;"	l	language:C++
+sz	src/udp_echo/server.cc	/^  constexpr int sz = 256;$/;"	l	language:C++
+tmp	src/echo/client.cc	/^  string tmp;$/;"	l	language:C++
+tmp	src/udp_echo/client.cc	/^  string tmp;$/;"	l	language:C++
+~ClientSocket	src/tldp_echo/ClientSocket.h	/^  virtual ~ClientSocket(){};$/;"	f	language:C++	class:ClientSocket	access:public	signature:()
+~ServerSocket	src/tldp_echo/ServerSocket.cpp	/^ServerSocket::~ServerSocket()$/;"	f	language:C++	class:ServerSocket	signature:()
+~ServerSocket	src/tldp_echo/ServerSocket.h	/^  virtual ~ServerSocket();$/;"	p	language:C++	class:ServerSocket	access:public	signature:()
+~Socket	src/tldp_echo/Socket.cpp	/^Socket::~Socket() {$/;"	f	language:C++	class:Socket	signature:()
+~Socket	src/tldp_echo/Socket.h	/^  virtual ~Socket();$/;"	p	language:C++	class:Socket	access:public	signature:()
+~SocketException	src/tldp_echo/SocketException.h	/^  ~SocketException (){};$/;"	f	language:C++	class:SocketException	access:public	signature:()

@@ -1,0 +1,1 @@
+/usr/bin/clang++   -Weverything -Wno-c++11-extensions -Wno-c++98-compat -O0 -g   CMakeFiles/tldp_echo_server.dir/simple_server_main.cpp.o CMakeFiles/tldp_echo_server.dir/ServerSocket.cpp.o CMakeFiles/tldp_echo_server.dir/Socket.cpp.o  -o ../../tldp_echo_server -rdynamic 

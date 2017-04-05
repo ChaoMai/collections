@@ -1,0 +1,1 @@
+/usr/bin/clang++   -Weverything -Wno-c++11-extensions -Wno-c++98-compat -O0 -g   CMakeFiles/echo_udp_server.dir/server.cc.o  -o ../../echo_udp_server -rdynamic 

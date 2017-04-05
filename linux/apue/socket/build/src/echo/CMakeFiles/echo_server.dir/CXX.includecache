@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/chaomai/Documents/Codes/Current/GitHub/learning/linux/apue/socket/src/echo/server.cc
+algorithm
+-
+arpa/inet.h
+-
+cstddef
+-
+iostream
+-
+netinet/in.h
+-
+sys/socket.h
+-
+unistd.h
+-
+

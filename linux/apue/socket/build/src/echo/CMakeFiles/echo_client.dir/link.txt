@@ -1,0 +1,1 @@
+/usr/bin/clang++   -Weverything -Wno-c++11-extensions -Wno-c++98-compat -O0 -g   CMakeFiles/echo_client.dir/client.cc.o  -o ../../echo_client -rdynamic 

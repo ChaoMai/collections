@@ -1,0 +1,1 @@
+/usr/bin/clang++   -Weverything -Wno-c++11-extensions -Wno-c++98-compat -O0 -g   CMakeFiles/simple_factory.dir/factory.cc.o CMakeFiles/simple_factory.dir/concrete_product.cc.o CMakeFiles/simple_factory.dir/concrete_product1.cc.o CMakeFiles/simple_factory.dir/product.cc.o CMakeFiles/simple_factory.dir/main.cc.o  -o ../../simple_factory -rdynamic 
