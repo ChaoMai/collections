@@ -4,25 +4,25 @@ import fpinscala.util.Util.PrintMessage
 // by value，调用apply时就计算了参数
 val sf = Stream(
   {
-    println("eval 1");
+    println("eval 1")
     1
   }, {
-    println("eval 2");
+    println("eval 2")
     2
   }, {
-    println("eval 3");
+    println("eval 3")
     3
   }, {
-    println("eval 4");
+    println("eval 4")
     4
   }, {
-    println("eval 5");
+    println("eval 5")
     5
   }, {
-    println("eval 6");
+    println("eval 6")
     6
   }, {
-    println("eval 7");
+    println("eval 7")
     7
   }
 )
@@ -35,10 +35,10 @@ println(sf.headOption)
 PrintMessage("Stream.cons")
 
 val a = Stream.cons({
-  println("eval 2");
+  println("eval 2")
   2
 }, Stream.cons({
-  println("eval 1");
+  println("eval 1")
   1
 }, Empty))
 
@@ -50,11 +50,11 @@ println(a.headOption)
 PrintMessage("Cons")
 
 val b = Cons(() => {
-  println("eval 2");
+  println("eval 2")
   2
 },
   () => Cons(() => {
-    println("eval 1");
+    println("eval 1")
     1
   }, () => Empty))
 
@@ -80,13 +80,13 @@ println(sf.take(10).toList)
 //}, Empty))
 
 val c = Cons(() => {
-  println("eval 2");
+  println("eval 3")
   3
 }, () => Cons(() => {
-  println("eval 2");
+  println("eval 2")
   2
 }, () => Cons(() => {
-  println("eval 1");
+  println("eval 1")
   1
 }, () => Empty)))
 
@@ -95,13 +95,13 @@ println(c.take(2).toList)
 println(c.take(2).toList)
 
 val d = Cons(() => {
-  println("eval 2");
+  println("eval 3")
   3
 }, () => Cons(() => {
-  println("eval 2");
+  println("eval 2")
   2
 }, () => Cons(() => {
-  println("eval 1");
+  println("eval 1")
   1
 }, () => Empty)))
 

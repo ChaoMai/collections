@@ -29,6 +29,7 @@
 
 # deep learning
 
+* [Deep Learning An MIT Press book](http://www.deeplearningbook.org/)
 * http://www.jiqizhixin.com/article/2558
 * https://www.zhihu.com/question/49071324/answer/153213375?utm_source=qq&utm_medium=social
 * [ ] https://www.gitbook.com/@yjango
@@ -98,12 +99,13 @@
 * [ ] http://hongjiang.info/scala/
 * [ ] https://windor.gitbooks.io/beginners-guide-to-scala/content/
     * [ ] The Neophyte’s Guide to Scala
-* [ ] https://www.ibm.com/developerworks/cn/java/j-scala/
-* http://aperiodic.net/phil/scala/s-99/
+* [可以用Scala写些什么好玩的项目？](https://www.zhihu.com/question/49847731?utm_source=qq&utm_medium=social)
+* [S-99: Ninety-Nine Scala Problems](http://aperiodic.net/phil/scala/s-99/)
 
 
 ## functional programming related
 
+* [ThCS. Introduction to programming with dependent types in Scala](https://stepik.org/course/ThCS-Introduction-to-programming-with-dependent-types-in-Scala-2294/)
 * [Asynchronous Programming and Scala](https://alexn.org/blog/2017/01/30/asynchronous-programming-scala.html#h5)
 * [DelftX: FP101x Introduction to Functional Programming](https://courses.edx.org/courses/course-v1:DelftX+FP101x+3T2015/info)
 * [CS 3110 Spring 2017 :: Data Structures and Functional Programming](http://www.cs.cornell.edu/courses/cs3110/2017sp/)
@@ -161,6 +163,7 @@
 * [ ] https://pdos.csail.mit.edu/6.828/2016/
 * [ ] https://zhuanlan.zhihu.com/p/25867829?utm_source=qq&utm_medium=social
 * [ ] https://zhuanlan.zhihu.com/p/24854976?utm_source=qq&utm_medium=social
+* [ ] [从 8086 实模式进化到 80386 保护模式，给程序开发带来什么好处？](https://www.zhihu.com/question/20679883/answer/22842417?utm_source=qq&utm_medium=social)
 
 
 # distribute system
@@ -178,6 +181,7 @@
 
 ## class
 
+* [Distributed Systems II CSC536 sections 901 and 910 Spring 2017](http://reed.cs.depaul.edu/lperkovic/csc536/)
 * [6.824: Distributed Systems](https://pdos.csail.mit.edu/6.824/)
 * [CS7412 Scalable Distributed Consistency: Models and Applications](http://www.cs.cornell.edu/courses/cs7412/2011sp/default.htm)
 * [CSC 2/458 Parallel and Distributed Systems](https://www.cs.rochester.edu/u/scott/courses/458/)
@@ -192,7 +196,12 @@
 * [ ] https://github.com/celery/celery (celery/celery)
 
 
-### rocketmq
+## block chain
+
+* [Modular blockchain framework. Public domain](https://github.com/input-output-hk/Scorex)
+
+
+## rocketmq
 
 * https://catslave.github.io
 * https://github.com/catslave/RocketMQ-Annotated-Edition
@@ -216,4 +225,5 @@
 # server-side programming
 
 * [后台开发资料合集](https://zhuanlan.zhihu.com/p/25968963?utm_source=qq&utm_medium=social)
+* [知乎专栏·「DPDK 从入门到精通」](https://zhuanlan.zhihu.com/dpdkpp?utm_source=qq&utm_medium=social)
 

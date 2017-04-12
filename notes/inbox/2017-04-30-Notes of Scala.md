@@ -6,7 +6,7 @@
 
 https://oldfashionedsoftware.com/2009/07/10/scala-code-review-foldleft-and-foldright/
 
-# Currying和Partially Applied Function
+# Currying 和 Partially Applied Function
 
 * http://stackoverflow.com/questions/14309501/scala-currying-vs-partially-applied-functions
 * http://stackoverflow.com/questions/8650549/using-partial-functions-in-scala-how-does-it-work/8650639#8650639
@@ -71,8 +71,8 @@ In Scala there is a rather arbitrary distinction between functions defined as _m
 
 对于所有类型`X`和`Y`，以及类型`Co[+A]`，`Ctr[-A]`，`Iv[A]`。如果X是Y的子类，
 
-covariant：`Co[X]`是`Co[Y]`的子类。在类型参数A前加上+表示covariant。
-contravariant：`Ctr[Y]`是`Ctr[X]`的子类。在类型参数A前加上-表示contravariant。
+covariant：`Co[X]`是`Co[Y]`的子类。在类型参数A前加上+表示 covariant。
+contravariant：`Ctr[Y]`是`Ctr[X]`的子类。在类型参数A前加上-表示 contravariant。
 invariant：`Iv[X]`和`Iv[Y]`无关。
 
 ```
@@ -87,7 +87,7 @@ invariant：`Iv[X]`和`Iv[Y]`无关。
 └───┘     └───────┘     └───────┘
 ```
 
-表述covariant的另一种方式是，在所有上下文中，都可安全的把`A`转换为`A`父类。contravariant类似。
+表述 covariant 的另一种方式是，在所有上下文中，都可安全的把`A`转换为`A`父类。contravariant 类似。
 
 ```scala
 class Animal {
@@ -147,7 +147,7 @@ covariant (negative) position：一个类型在函数参数的类型中。更一
                    └────────────────────┘
 ```
 
-对于高阶函数，从外层向内分析。类型最终是什么position由分析过程中，各个类型的“累加”得到。就函数`foo`而言，`A => B`是在contravariant position；就函数`f`而言，`A`是在contravariant position，`B`是在covariant position。因此，最终`A`是在covariant position（可以理解为两个negative position合并，负负得正），而`B`是在contravariant position。
+对于高阶函数，从外层向内分析。类型最终是什么 position 由分析过程中，各个类型的“累加”得到。就函数 `foo` 而言，`A => B` 是在 contravariant position；就函数 `f` 而言， `A` 是在 contravariant position，`B` 是在 covariant position。因此，最终 `A` 是在 covariant position（可以理解为两个 negative position 合并，负负得正），而 `B` 是在 contravariant position。
 
 ```
                     ┌───────────────────────┐
@@ -192,9 +192,9 @@ class V1[+A]
 class V2[-B] extends V1[B]
 ```
 
-这个定义将会导致编译错误，`Error:... covariant type A occurs in contravariant position in type`。`orElse`函数接受参数`Option[A]`，这个位置（contravariant position）是只能将`A`转换为`A`的子类型的地方。但是类型`A`是covariant的，也就是说在所有上下文中，都可安全的把`A`转换为`A`父类。这里出现了冲突。
+这个定义将会导致编译错误，`Error:... covariant type A occurs in contravariant position in type`。`orElse` 函数接受参数`Option[A]`，这个位置（contravariant position）是只能将 `A` 转换为 `A` 的子类型的地方。但是类型 `A` 是 covariant 的，也就是说在所有上下文中，都可安全的把 `A` 转换为 `A` 父类。这里出现了冲突。
 
-对于`orElse`，解决方式是不使用`A`，使用边界限定类型为`A`的父类。
+对于 `orElse`，解决方式是不使用 `A`，使用边界限定类型为 `A` 的父类。
 
 ```scala
 def orElse[B >: A](o: Option[B]): Option[B] = this match {
@@ -213,8 +213,33 @@ def orElse[B <: A](o: Option[B]): Option[B]
 def orElse[B](o: Option[B]): Option[B]
 ```
 
-`orElse`返回值可能的类型为`Option[B]`或`Option[A]`，
+`orElse` 返回值可能的类型为 `Option[B]` 或 `Option[A]`，
+* 对于1，`B` 是 `A` 的子类，`Option[B]` 是 `Option[A]` 的子类，当返回 `this` 时，类型为 `Option[A]`，这里无法从父类转换到子类。
+* 对于2，当返回 `this` 时，类型为 `Option[A]`，和 `Option[B]` 完全无关，类型不匹配。
 
-* 对于1，`B`是`A`的子类，`Option[B]`是`Option[A]`的子类，当返回`this`时，类型为`Option[A]`，这里无法从父类转换到子类。
-* 对于2，当返回`this`时，类型为`Option[A]`，和`Option[B]`完全无关，类型不匹配。
+# Laziness 和 Non-strictness
+
+二者都与求值策略[^1]（evaluation strategy）有关。一个编程语言用求值策略来，
+
+* 确定合适计算一个函数调用的参数。
+* 以什么样的形式来把数值传递给函数。
+
+[^1]: https://en.wikipedia.org/wiki/Evaluation_strategy
+
+求值策略包括，
+
+* 严格求值（strict evaluation）：一个函数调用的参数总是在应用这个函数之前进行完全求值。常见的有，
+    * call by value
+    * call by reference
+    
+    关于这个话题，不得不提的是计算顺序[^2]（order of evaluation），在c++中，这个顺序未定义，由编译器决定。
+* 非严格求值（non-strict evaluation）：一个函数调用的参数只有在函数体内被使用到时，才进行求值。常见有，
+    * call by name：在函数体内被使用到时才进行求值，没有被用到则不会求值。如果被多次使用到，那么每次使用都需要重新求值。
+    * call by need：记忆版的 call by name。当参数首次被求值时，值被保留用于后续使用。
+* 非确定性策略（nondeterministic strategies）
+    * call by future
+
+在 Scala 中，非严格参数又叫做 called "by name" 参数，对应 Scala 中对这些参数使用的 call by name求值策略。当首次使用到某个参数的时候，通过 `lazy val` 缓存这个值，来达到 call by need（又叫做 lazy evaluation）。
+
+[^2]: http://en.cppreference.com/w/cpp/language/eval_order
 

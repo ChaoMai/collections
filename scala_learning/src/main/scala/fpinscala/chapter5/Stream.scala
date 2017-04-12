@@ -37,7 +37,7 @@ sealed trait Stream[+A] {
     case Cons(_, _) if n <= 0 => Empty
   }
 
-  // why h() in Stream.cons(h(), t().take1(n - 1))
+  // TODO: why h() in Stream.cons(h(), t().take1(n - 1))
   def take1(n: Int): Stream[A] = this match {
     case Cons(h, t) if n > 1 => Stream.cons(h(), t().take1(n - 1))
     case Cons(h, _) if n == 1 => Stream.cons(h(), Stream.empty)
@@ -55,7 +55,7 @@ sealed trait Stream[+A] {
     case Cons(h, t) if n <= 0 => Cons(h, t)
   }
 
-  // same as take1, why h()?
+  // TODO: same as take1, why h()?
   def takeWhile(p: A => Boolean): Stream[A] = this match {
     case Cons(h, t) if p(h()) => Stream.cons(h(), t() takeWhile p)
     case _ => Stream.empty
@@ -65,6 +65,11 @@ sealed trait Stream[+A] {
     case Empty => Empty
     case Cons(h, t) if p(h()) => Cons(h, () => t().takeWhile(p))
     case Cons(_, t) => t().takeWhile(p)
+  }
+
+  def exist(p: A => Boolean): Boolean = this match {
+    case Cons(h, t) => p(h()) || t().exist(p)
+    case _ => false
   }
 }
 
