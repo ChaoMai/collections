@@ -1,1 +1,0 @@
-/usr/bin/clang++   -Weverything -Wno-c++11-extensions -Wno-c++98-compat -O0 -g   CMakeFiles/temp_server.dir/main.cc.o  -o ../../temp_server -rdynamic 

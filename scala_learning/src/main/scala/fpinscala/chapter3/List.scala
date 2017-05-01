@@ -423,7 +423,7 @@ object List {
   @annotation.tailrec
   def startsWith[A](l: List[A], prefix: List[A]): Boolean = (l, prefix) match {
     case (_, Nil) => true
-    case (Cons(x1, xs1), Cons(x2, xs2)) if (x1 == x2) => startsWith(xs1, xs2)
+    case (Cons(x1, xs1), Cons(x2, xs2)) if x1 == x2 => startsWith(xs1, xs2)
     case _ => false
   }
 

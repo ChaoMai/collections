@@ -186,5 +186,8 @@ object Chapter3Module {
     println(Tree.depth2(t1))
     println(Tree.map2(t1)(x => x * x))
     println(Tree.map3(t1)(x => x * x * x))
+
+    println(List.flatMap(List(1, 2, 3))(i => List(i, i)))
+    println(List.flatMap1(List(1, 2, 3))(i => List(i, i)))
   }
 }

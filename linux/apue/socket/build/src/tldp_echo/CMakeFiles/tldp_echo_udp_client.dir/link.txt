@@ -1,1 +1,0 @@
-/usr/bin/clang++   -Weverything -Wno-c++11-extensions -Wno-c++98-compat -O0 -g   CMakeFiles/tldp_echo_udp_client.dir/simple_client_main.cpp.o CMakeFiles/tldp_echo_udp_client.dir/ClientSocket.cpp.o CMakeFiles/tldp_echo_udp_client.dir/Socket.cpp.o  -o ../../tldp_echo_udp_client -rdynamic 

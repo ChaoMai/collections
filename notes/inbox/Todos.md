@@ -11,24 +11,27 @@
 * [ ] 分裂 詹姆斯·麦克沃伊
 * [ ] 亿万
 * [ ] 国土安全
-* [ ] 欲奴
 * [ ] 朝鲜：生活中的一天
 * [ ] 太阳之下
-* [ ] 【潜行追踪】真人秀Hunted http://www.bilibili.com/video/av8185201/index_1.html
 * [ ] 美国谍梦
 * [ ] 都市传说
 * [ ] 时间管理局
-* [ ] 人渣的本愿
 * [ ] 诈欺担保人
-* [ ] 大群
 * [ ] 孩子王
 * [ ] 死亡诗社
-* [ ] [真爱至上：红鼻子日特别集](https://mp.weixin.qq.com/s?__biz=MzA5MDM1MTcyNQ==&mid=2657233155&idx=1&sn=35032c1ee439e816f3de8fce8923e0d1&chksm=8b9a7801bcedf1174373416dfa388d87908683d85859ee1655df029e96fa2985bbae4592bca7&scene=0&key=1567b06ea6bccd1ff47d8febc4c253c98befa4054c559cedbf1bb104fb22c45b700cf684aa22bd0da5e7ebf470155c92758a4691001018ec1a19aa164f7740c608e8b4161683dbe1f4bd810724e31bf1&ascene=0&uin=MTg0NDgzNDcwMA%3D%3D&devicetype=iMac+MacBookPro13%2C2+OSX+OSX+10.12.3+build(16D32)&version=12020110&nettype=WIFI&fontScale=100&pass_ticket=JpHpuIuAefDorZD5J3wbAK%2BI55JUZfwvMRpG5hHZxL8f0EI2jJ6NqQX9CSYbtSE3)
-* [ ] [人民的名义](http://mp.weixin.qq.com/s?__biz=MzA5MDM1MTcyNQ==&mid=2657233370&idx=1&sn=5c2eee55f3ede69c2d831e54711f3c83&chksm=8b9a78d8bcedf1ceed98d181dba61d1845eaac1aaa8674c982506b5a52f31fe06f0b5e8c66c2&mpshare=1&scene=23&srcid=0331MIdFqN98c0QgSXvrnGXy%23rd&_ts=1490975718125)
+* [ ] 终极斗士
+* [ ] 福斯特医生
+* [ ] 保罗 Paul (2011)
+* [ ] 泰迪熊 Ted (2012)
+* [ ] 泰迪熊2 Ted 2 (2015)
+* [ ] 最后的棒棒
+* 无人生还
 
 
 # deep learning
 
+* [coursera neural-networks](https://www.coursera.org/learn/neural-networks)
+* [deeplearningbook-chinese](https://github.com/exacity/deeplearningbook-chinese)
 * [Deep Learning An MIT Press book](http://www.deeplearningbook.org/)
 * http://www.jiqizhixin.com/article/2558
 * https://www.zhihu.com/question/49071324/answer/153213375?utm_source=qq&utm_medium=social
@@ -75,6 +78,10 @@
 
 # c++
 
+* rpclib：`dispatcher` 能够注册并调用任何形式的函数，这是一个有意思的地方。
+* https://github.com/cpp-netlib/cpp-netlib
+* [C++ TCP Proxy Server](http://www.partow.net/programming/tcpproxy/index.html)
+* [An Introduction to Reflection in C++](http://jackieokay.com/2017/04/13/reflection1.html)
 * http://manu343726.github.io/2017/03/13/lock-free-job-stealing-task-system-with-modern-c.html
 * Job System 2.0: Lock-Free Work Stealing – Part 1: Basics
 * http://blog.tartanllama.xyz/c++/2017/03/21/writing-a-linux-debugger-setup/
@@ -101,26 +108,26 @@
     * [ ] The Neophyte’s Guide to Scala
 * [可以用Scala写些什么好玩的项目？](https://www.zhihu.com/question/49847731?utm_source=qq&utm_medium=social)
 * [S-99: Ninety-Nine Scala Problems](http://aperiodic.net/phil/scala/s-99/)
+* [Scala interview questions](http://pedrorijo.com/blog/scala-interview-questions/)
+
+## type level programming
+
+* [Introduction Type Level Programming in Scala step by step](http://gigiigig.github.io/tlp-step-by-step/introduction.html)
 
 
 ## functional programming related
 
+* Visual Group Theory（群的可视化方法）
+* [Discrete Mathematics and Functional Programming](http://cs.wheaton.edu/~tvandrun/dmfp/)
+* [Architectures for interpreters: Substitutional, denotational, big-step and small-step](http://matt.might.net/articles/writing-an-interpreter-substitution-denotational-big-step-small-step/)
+* [Asynchronous Programming and Scala](https://alexn.org/blog/2017/01/30/asynchronous-programming-scala.html)
 * [ThCS. Introduction to programming with dependent types in Scala](https://stepik.org/course/ThCS-Introduction-to-programming-with-dependent-types-in-Scala-2294/)
-* [Asynchronous Programming and Scala](https://alexn.org/blog/2017/01/30/asynchronous-programming-scala.html#h5)
 * [DelftX: FP101x Introduction to Functional Programming](https://courses.edx.org/courses/course-v1:DelftX+FP101x+3T2015/info)
 * [CS 3110 Spring 2017 :: Data Structures and Functional Programming](http://www.cs.cornell.edu/courses/cs3110/2017sp/)
 * https://www.edx.org/course/introduction-functional-programming-delftx-fp101x-0
 * http://lfkdsk.github.io/sicp/
-* http://pedrorijo.com/blog/fp-concepts/
 * [ ] http://colah.github.io/posts/2015-09-NN-Types-FP/
-* [ ] [Functional-Programming-For-The-Rest-of-Us-Cn](https://github.com/justinyhuang/Functional-Programming-For-The-Rest-of-Us-Cn/blob/master/FunctionalProgrammingForTheRestOfUs.cn.md)
-* [ ] [什么是函数式编程思维？](https://www.zhihu.com/question/28292740)
 * [ ] https://bartoszmilewski.com/2014/10/28/category-theory-for-programmers-the-preface/
-
-
-## spark
-
-* https://github.com/JerryLead/SparkInternals
 
 
 # machine learning
@@ -158,6 +165,7 @@
 
 # operating system
 
+* [UEFI和BIOS探秘 UEFI和BIOS相关，固件工程师必备](https://zhuanlan.zhihu.com/UEFIBlog)
 * [ ] http://web.cecs.pdx.edu/~walpole/class/cs533/fall2016/home.html
 * [ ] http://flint.cs.yale.edu/cs422/
 * [ ] https://pdos.csail.mit.edu/6.828/2016/
@@ -209,12 +217,15 @@
 
 # database
 
-* [ ] http://coding-geek.com/how-databases-work/
+* rediSQL
+* https://github.com/rxin/db-readings
+* http://coding-geek.com/how-databases-work/
 
 
 # blogs
 
 * [ ] https://taozj.org/201701/blog-collection.html
+* [（更新完结）阿里珍贵技术资料免费下载](https://yq.aliyun.com/articles/69316?utm_campaign=zilxiaz&utm_medium=images&utm_source=renyimen&utm_content=m_12058)
 
 
 # irc
@@ -226,4 +237,5 @@
 
 * [后台开发资料合集](https://zhuanlan.zhihu.com/p/25968963?utm_source=qq&utm_medium=social)
 * [知乎专栏·「DPDK 从入门到精通」](https://zhuanlan.zhihu.com/dpdkpp?utm_source=qq&utm_medium=social)
+
 

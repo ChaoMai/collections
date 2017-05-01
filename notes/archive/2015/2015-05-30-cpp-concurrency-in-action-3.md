@@ -21,7 +21,7 @@ tags:
 * 如果所有数据都是只读的，那么不会有任何问题。
 * 如果一个或多个线程修改它们之间共享的数据，现在的问题可能就会出现。
 
-**Invariant**（不变条件）：关于某个特定的数据结构，始终为真的与君。
+**Invariant**（不变条件）：关于某个特定的数据结构，始终为真的predicate。
 
 但是在多个线程修改共享数据时，invariant会被broken。
 
@@ -539,3 +539,5 @@ C++标准库没有提供这种锁，这里使用的是boost库。这种锁不是
 3. [C++ concepts: Lockable](http://en.cppreference.com/w/cpp/concept/Lockable)
 4. [双重检查锁定与延迟初始化](http://www.infoq.com/cn/articles/double-checked-locking-with-delay-initialization)
 5. C++ Concurrency in Action
+
+
