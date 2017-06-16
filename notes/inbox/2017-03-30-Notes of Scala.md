@@ -2,6 +2,7 @@
 
 Notes of Functional Programming in Scala and more.
 
+
 ## Pure Function
 
 对于一个函数 `f: A => B`，如果任何一个值 `a: A` 都有只有一个 `b: B` 与之对应，使得 `b` 仅仅由 `a` 决定，那么这个函数是纯函数。任何内部或外部状态的改变都不影响 `f(a)` 的结果。
@@ -11,7 +12,7 @@ Notes of Functional Programming in Scala and more.
 
 引用透明是表达式的属性。如果一个表达式是引用透明的，那么把这个表达式替换为它求值后的结果不会影响程序的行为。引用透明是定义一个纯函数的必要条件。
 
-如果表达式不是引用透明的，那么这个表达式就是有side-effect（副作用）。根据引用透明的定义，对于一个纯函数函数 `f`，表达式 `f(x)` 不会有任何的副作用。
+如果表达式不是引用透明的，那么这个表达式就是有 side-effect（副作用）。根据引用透明的定义，对于一个纯函数函数 `f`，表达式 `f(x)` 不会有任何的副作用。
 
 
 ## Idempotence（幂等性）
@@ -25,7 +26,7 @@ $$
 
 # Currying
 
-一个Curryied函数是，把一个接受多个参数的函数重写为，一个首先接受第一个参数并返回一个函数接受第二个参数...的函数。
+一个 Curryied 函数是，把一个接受多个参数的函数重写为，一个首先接受第一个参数并返回一个函数接受第二个参数...的函数。
 
 例如：foldLeft。
 
@@ -357,4 +358,12 @@ case class Moore[S, I, A](t: (S, I) => S, g: S => A)
 
 转移函数和输出函数都接受 `S` 的值作为参数，合并得到，`S => (I => S, A)`，但此时就不能够用 `State` 数据类型来表示了。 
 
+
+# implicit
+
+* [Implicits mechanism in Scala](http://akmetiuk.com/posts/2017-05-12-implicits.html)
+* [Implicit Parameters](http://docs.scala-lang.org/tutorials/tour/implicit-parameters.html)
+* [Implicit Classes](http://docs.scala-lang.org/overviews/core/implicit-classes.html)
+* [Understanding implicit in Scala](http://stackoverflow.com/questions/10375633/understanding-implicit-in-scala)
+* [Implicit Design Patterns in Scala](http://www.lihaoyi.com/post/ImplicitDesignPatternsinScala.html)
 

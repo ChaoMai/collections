@@ -12,7 +12,7 @@ case object Turn extends Input
 case class Machine(lockedState: Boolean, candies: Int, coins: Int)
 
 object Candy {
-  def update =
+  def update: Input => Machine => Machine =
     (i: Input) =>
       (s: Machine) =>
         (i, s) match {

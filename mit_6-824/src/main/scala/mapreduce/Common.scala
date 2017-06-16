@@ -1,6 +1,7 @@
 package mapreduce
 
-import argonaut._, Argonaut._
+import argonaut._
+import Argonaut._
 
 /**
   * Created by chaomai on 11/04/2017.
@@ -23,8 +24,13 @@ object Common {
         value <- (c --\ "value").as[String]
       } yield KeyValue(key, value))
 
-  val mapPhase = "Map"
-  val reducePhase = "Reduce"
+  type Phase = String
+
+  val mapPhase: Phase = "Map"
+  type MapFunc = (String, String) => List[KeyValue]
+
+  val reducePhase: Phase = "Reduce"
+  type ReduceFunc = (String, List[String]) => String
 
   def reduceName(jobName: String, mapTask: Int, reduceTask: Int): String =
     "mrtmp." + jobName + "-" + mapTask.toString + "-" + reduceTask.toString

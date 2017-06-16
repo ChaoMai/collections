@@ -12,7 +12,7 @@ object CommonMap {
             mapTaskNumber: Int,
             inFile: String,
             nReduce: Int,
-            mapF: (String, String) => List[KeyValue]): Unit = {
+            mapF: MapFunc): Unit = {
     val intermediateFiles =
       (0 until nReduce).map(i => File(reduceName(jobName, mapTaskNumber, i)))
 

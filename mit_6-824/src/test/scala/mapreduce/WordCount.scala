@@ -22,14 +22,20 @@ object WordCount {
     val reduceF: (String, List[String]) => String =
       (_, values) => values.foldRight(0)((n, acc) => n.toInt + acc).toString
 
-    val master = Master("master")
+    val masterAddress = "master"
 
     (paras.head, paras.tail) match {
       case ("master", t) =>
         (t.head, t.tail) match {
           case ("sequential", as) => {
-            if (!as.exists(s => s.contains('*'))) Master.Sequential(master, "wcseq", as.toList, 3, mapF, reduceF)
-            else println("cannot use glob in parameters")
+            if (!as.exists(s => s.contains('*'))) {
+              MasterOfSequential.run(masterAddress,
+                                     "wcseq",
+                                     as.toList,
+                                     3,
+                                     mapF,
+                                     reduceF)
+            } else println("cannot use glob in parameters")
           }
           case (masterAddr, as) => ???
         }
