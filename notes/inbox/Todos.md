@@ -1,11 +1,20 @@
 # shopping
 
 * [用20w的仪器实测口罩，发现最能防霾的只有2款](https://zhuanlan.zhihu.com/p/23762623?utm_source=qq&utm_medium=social)
-* [喝啤酒只会吹瓶的人，你不配当爷们｜基本款](https://mp.weixin.qq.com/s?__biz=MzAxMDI4ODIyNg==&mid=2723051762&idx=1&sn=09c4ca93014fc26c410c60de678d3804&chksm=bce875ff8b9ffce973b97da4c83dc4a245fc2fc57f321f8b8d29c6ed92c1db3e555b80b006a6&mpshare=1&scene=23&srcid=0511ckFVHOMrxVcDvlx9nPdi#rd)
+* 丁克盐酸特比萘芬乳膏
+* 哲学问题-罗素
+* [在25岁实现财务自由的机会，你其实早就有了｜Mr.Marvin](https://mp.weixin.qq.com/s/sc8wbPphmD7QLWmeToEkiw)
 
 
 # movie
 
+* 红辣椒、穿越时空的少女、未麻的部屋
+* !!!!!!!!!!!《银翼杀手》、《记忆裂痕》、《少数派报告》、《高堡奇人》
+* !!!!!!!!!!!电子梦：菲利普·狄克的世界
+* [ ] 毒枭
+* [ ] 马男波杰克
+* [ ] 美国恐怖故事
+* [ ] 我爱上的人是奇葩
 * [ ] 浴血黑帮
 * [ ] 格莫拉
 * [ ] 瑞克和莫蒂
@@ -14,7 +23,6 @@
 * [ ] 国土安全
 * [ ] 朝鲜：生活中的一天
 * [ ] 太阳之下
-* [ ] 美国谍梦
 * [ ] 都市传说
 * [ ] 时间管理局
 * [ ] 诈欺担保人
@@ -29,8 +37,12 @@
 * 无人生还
 * 幻境诺德林
 * 双峰
-* [【俄剧】袭击 Налёт（涅瓦字幕组）](http://www.acfun.cn/a/aa5017080)
 * [有哪些质量上乘却很冷门的动画或漫画？ - 知乎](https://www.zhihu.com/question/42654110?utm_source=qq&utm_medium=social)
+* 杀不死
+* 命案十三宗
+* 中国刑侦1号案
+* 真相
+* 征服
 
 
 # machine learning
@@ -59,8 +71,12 @@
 
 ## deep learning
 
+* Important
+    * [Neural Network for Recognition of Handwritten Digits](https://www.codeproject.com/Articles/16650/Neural-Network-for-Recognition-of-Handwritten-Digi#Introduction)
+    * [Introduction to Deep Learning Algorithms](http://www.iro.umontreal.ca/~pift6266/H10/notes/deepintro.html)
+    * [Must Know Tips/Tricks in Deep Neural Networks](http://lamda.nju.edu.cn/weixs/project/CNNTricks/CNNTricks.html?from=groupmessage)
 * 6.869 Advances in Computer Vision
-* [从数据结构到Python实现：如何使用深度学习分析医学影像](http://www.jiqizhixin.com/article/2896)
+* [动手学深度学习](http://zh.gluon.ai/index.html)
 * [coursera neural-networks](https://www.coursera.org/learn/neural-networks)
 * [deeplearningbook-chinese](https://github.com/exacity/deeplearningbook-chinese)
 * [Deep Learning An MIT Press book](http://www.deeplearningbook.org/)
@@ -74,6 +90,7 @@
     * [ ] [斯坦福CS231n课程笔记系列](https://zhuanlan.zhihu.com/p/20870307?refer=intelligentunit)
     * [ ] http://cs231n.stanford.edu/
     * [ ] http://cs231n.github.io/
+* http://web.stanford.edu/class/cs224n/
 * [Neural Networks, Types, and Functional Programming](http://colah.github.io/posts/2015-09-NN-Types-FP/)
 
 
@@ -164,11 +181,12 @@
 # design pattern
 
 * [ ] Design patterns for container-based distributed systems
-* [ ] 图解设计模式
 
 
 # operating system
 
+* [CSAPP Introduction to Computer Systems (ICS)](http://www.cs.cmu.edu/~213/)
+* [Writing a Linux Debugger Part 1: Setup](https://blog.tartanllama.xyz/c++/2017/03/21/writing-a-linux-debugger-setup/)
 * [高性能计算机架构 流程、缓存和多核处理器](https://cn.udacity.com/course/high-performance-computer-architecture--ud007/)
 * [Parallel Computer Architecture and Programming](http://15418.courses.cs.cmu.edu/spring2017/home)
 * [6.888 Parallel and Heterogeneous Computer Architecture](http://courses.csail.mit.edu/6.888/spring13/)
@@ -179,6 +197,7 @@
 * https://zhuanlan.zhihu.com/p/25867829?utm_source=qq&utm_medium=social
 * https://zhuanlan.zhihu.com/p/24854976?utm_source=qq&utm_medium=social
 * [从 8086 实模式进化到 80386 保护模式，给程序开发带来什么好处？](https://www.zhihu.com/question/20679883/answer/22842417?utm_source=qq&utm_medium=social)
+* [体系化认识RPC](https://mp.weixin.qq.com/s/lkz3zGk-KyMkI1eYeYH4ng)
 
 
 # cache
@@ -186,6 +205,12 @@
 * [Avoiding and Identifying False Sharing Among Threads](https://software.intel.com/sites/default/files/m/d/4/1/d/8/3-4-MemMgt_-_Avoiding_and_Identifying_False_Sharing_Among_Threads.pdf)
 * [伪共享（false sharing），并发编程无声的性能杀手](http://www.cnblogs.com/cyfonly/p/5800758.html)
 * [Cache Coherence Protocols Analyzer](https://kshitizdange.github.io/418CacheSim/)
+
+
+# compiler
+
+* https://news.ycombinator.com/item?id=15005031
+    
 
 # distribute system
 
@@ -204,6 +229,7 @@
 ## class
 
 
+* [Programming Models for Distributed Computing](http://heather.miller.am/teaching/cs7680/)
 * [6.824 Schedule: Spring 2012](https://pdos.csail.mit.edu/archive/6.824-2012/schedule.html)
 * [Distributed Systems II CSC536 sections 901 and 910 Spring 2017](http://reed.cs.depaul.edu/lperkovic/csc536/)
 * [CS7412 Scalable Distributed Consistency: Models and Applications](http://www.cs.cornell.edu/courses/cs7412/2011sp/default.htm)
@@ -227,6 +253,9 @@
 
 # database
 
+* Let's Build a Simple Database https://cstack.github.io/db_tutorial/
+* DATABASE SYSTEMS http://15445.courses.cs.cmu.edu/fall2017/index.html
+* Database Systems http://15721.courses.cs.cmu.edu/spring2017/
 * 6.830 Database Systems
 * [MySQL索引背后的数据结构及算法原理](http://blog.codinglabs.org/articles/theory-of-mysql-index.html?from=timeline)
 * [MySQL索引原理及慢查询优化](http://tech.meituan.com/mysql-index.html)
@@ -242,11 +271,6 @@
 * [（更新完结）阿里珍贵技术资料免费下载](https://yq.aliyun.com/articles/69316?utm_campaign=zilxiaz&utm_medium=images&utm_source=renyimen&utm_content=m_12058)
 * [YouTube 上有哪些计算机方面的值得推荐的公开课？](https://www.zhihu.com/question/49071324/answer/153213375?utm_source=qq&utm_medium=social)
 
-
-# irc
-
-* http://blog.chinaunix.net/uid-45094-id-3011994.html
-* http://wiki.ubuntu.org.cn/index.php?title=IRC%E5%9F%BA%E6%9C%AC%E5%91%BD%E4%BB%A4%E8%AF%B4%E6%98%8E&variant=zh-cn
 
 # server-side programming
 
