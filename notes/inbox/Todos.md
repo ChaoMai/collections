@@ -183,6 +183,11 @@
 * [ ] Design patterns for container-based distributed systems
 
 
+# data structure
+
+* [Notes on Data Structures and Programming Techniques (CPSC 223, Spring 2015)](http://cs.yale.edu/homes/aspnes/classes/223/notes.html)
+
+
 # operating system
 
 * [CSAPP Introduction to Computer Systems (ICS)](http://www.cs.cmu.edu/~213/)
@@ -231,6 +236,7 @@
 
 * [Programming Models for Distributed Computing](http://heather.miller.am/teaching/cs7680/)
 * [6.824 Schedule: Spring 2012](https://pdos.csail.mit.edu/archive/6.824-2012/schedule.html)
+* [6.852/18.437 Distributed Algorithms](stellar.mit.edu/S/course/6/fa09/6.852/index.html)
 * [Distributed Systems II CSC536 sections 901 and 910 Spring 2017](http://reed.cs.depaul.edu/lperkovic/csc536/)
 * [CS7412 Scalable Distributed Consistency: Models and Applications](http://www.cs.cornell.edu/courses/cs7412/2011sp/default.htm)
 * [CSC 2/458 Parallel and Distributed Systems](https://www.cs.rochester.edu/u/scott/courses/458/)
