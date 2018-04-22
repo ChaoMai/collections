@@ -5,12 +5,31 @@
 * 哲学问题-罗素
 * [在25岁实现财务自由的机会，你其实早就有了｜Mr.Marvin](https://mp.weixin.qq.com/s/sc8wbPphmD7QLWmeToEkiw)
 
-
 # movie
 
+* 苍穹浩瀚
+* 未来日记
+* 环太平洋
+* 雷霆宙域
+* 魔神z
+* 全金属狂潮
+* 德雷尔一家
+* 沉默的天使
+* [猎天使魔女2剧情电影](http://v.youku.com/v_show/id_XMzQyMDE4NzkwNA==.html?spm=a2hzp.8244740.0.0)
+* 来自深渊
+* 壳中少女
+* 苍穹之战
+* 《Blame！》，《希德尼雅的骑士》
+* 骨头社
+* 《刑事调查大揭秘》
+* 《去他妈的世界》
+* 《殊途同归》
 * 红辣椒、穿越时空的少女、未麻的部屋
 * !!!!!!!!!!!《银翼杀手》、《记忆裂痕》、《少数派报告》、《高堡奇人》
+* [纪录片.Arte.《银翼杀手》作者菲利普·K·迪克的世界.2015[高清][生肉]](https://www.bilibili.com/video/av14973622/)
 * !!!!!!!!!!!电子梦：菲利普·狄克的世界
+* 一念之差
+* 美国众神
 * [ ] 毒枭
 * [ ] 马男波杰克
 * [ ] 美国恐怖故事
@@ -44,16 +63,20 @@
 * 真相
 * 征服
 
+# mathematics
+
+* [微积分的本质](https://www.bilibili.com/video/av10308208/)
 
 # machine learning
 
+* **<<hands on machine learning with scikit-learn and tensorflow>>**
 * [CS 229 Machine Learning Course Materials](http://cs229.stanford.edu/materials.html)
+* [Statistical Machine Learning: Spring 2017](http://www.stat.cmu.edu/~ryantibs/statml/)
 * [Data 8: The Foundations of Data Science](http://data8.org/)
 * [An overview of gradient descent optimization algorithms](http://sebastianruder.com/optimizing-gradient-descent/)
 * [ ] [深入浅出ML之Boosting家族](http://www.52caml.com/head_first_ml/ml-chapter6-boosting-family/)
 * [ ] [机器学习中的数学(3)-模型组合(Model Combining)之Boosting与Gradient Boosting](http://www.cnblogs.com/LeftNotEasy/archive/2011/01/02/machine-learning-boosting-and-gradient-boosting.html)
 * [ ] [机器学习中的算法(1)-决策树模型组合之随机森林与GBDT](http://www.cnblogs.com/leftnoteasy/archive/2011/03/07/random-forest-and-gbdt.html)
-
 
 ## decision tree
 
@@ -63,11 +86,9 @@
 * [ ] [[Mechine Learning & Algorithm] 集成学习方法——Bagging和 Boosting](http://www.cnblogs.com/maybe2030/p/4652492.html)
 * [ ] [Gradient Boosting Tree vs Random Forest](http://stats.stackexchange.com/questions/173390/gradient-boosting-tree-vs-random-forest)
 
-
 ## pca
 
 * [PCA的数学原理](http://blog.codinglabs.org/articles/pca-tutorial.html)
-
 
 ## deep learning
 
@@ -77,6 +98,7 @@
     * [Must Know Tips/Tricks in Deep Neural Networks](http://lamda.nju.edu.cn/weixs/project/CNNTricks/CNNTricks.html?from=groupmessage)
 * 6.869 Advances in Computer Vision
 * [动手学深度学习](http://zh.gluon.ai/index.html)
+* [零基础入门深度学习](https://www.zybuluo.com/hanbingtao/note/433855)
 * [coursera neural-networks](https://www.coursera.org/learn/neural-networks)
 * [deeplearningbook-chinese](https://github.com/exacity/deeplearningbook-chinese)
 * [Deep Learning An MIT Press book](http://www.deeplearningbook.org/)
@@ -86,19 +108,19 @@
 * Benchmarking State-of-the-Art Deep Learning Software Tools
 * GeePS: Scalable deep learning on distributed GPUs with a GPU-specialized parameter server
 * Poseidon: A System Architecture for Efficient GPU-based Deep Learning on Multiple Machines
+* [6.S191: Introduction to Deep Learning](http://introtodeeplearning.com/index.html)
 * 斯坦福CS231n
     * [ ] [斯坦福CS231n课程笔记系列](https://zhuanlan.zhihu.com/p/20870307?refer=intelligentunit)
     * [ ] http://cs231n.stanford.edu/
     * [ ] http://cs231n.github.io/
+* [斯坦福大学秋季课程《深度学习理论》STATS 385](https://stats385.github.io)
 * http://web.stanford.edu/class/cs224n/
 * [Neural Networks, Types, and Functional Programming](http://colah.github.io/posts/2015-09-NN-Types-FP/)
-
 
 # computational advertising
 
 * [Display Advertising with Real-Time Bidding (RTB) and Behavioural Targeting](https://arxiv.org/abs/1610.03013)
 * [MS&E 239: Introduction to Computational Advertising](https://web.stanford.edu/class/msande239/)
-
 
 ## ctr predication
 
@@ -106,22 +128,18 @@
 * [ ] [计算广告训练与平滑思想（上）](https://www.bittiger.io/blog/post/QNbpdef3jCQTtMw5z)
 * [ ] [点击率预估相关笔记](http://lixinzhang.github.io/dian-ji-lu-yu-gu-xiang-guan-bi-ji.html)
 
-
 ## rtb
 
 * [Real-Time Bidding Protocol - Get Started](https://developers.google.com/ad-exchange/rtb/start)
 * [美团DSP广告策略实践](http://tech.meituan.com/mt_dsp.html)
-
 
 # c++
 
 * [libtins packet crafting and sniffing library](https://github.com/mfontanini/libtins.git)
 * [Portable stack traces](https://www.reddit.com/r/cpp/comments/6cwagf/portable_stack_traces/)
 * [C++ Optimization Bibliography](http://oldhandsblog.blogspot.bg/2016/09/c-optimization-bibliography.html)
-* [C++ Reflection in under 100 lines of code](http://pfultz2.com/blog/2012/07/31/reflection-in-under-100-lines/) 
 * https://github.com/cpp-netlib/cpp-netlib
 * [C++ TCP Proxy Server](http://www.partow.net/programming/tcpproxy/index.html)
-* [An Introduction to Reflection in C++](http://jackieokay.com/2017/04/13/reflection1.html)
 * http://manu343726.github.io/2017/03/13/lock-free-job-stealing-task-system-with-modern-c.html
 * Job System 2.0: Lock-Free Work Stealing – Part 1: Basics
 * http://blog.tartanllama.xyz/c++/2017/03/21/writing-a-linux-debugger-setup/
@@ -130,13 +148,20 @@
 * [ ] http://boolan.com/course/4
 * [ ] https://techiedelight.quora.com/500-Data-structures-and-algorithms-interview-questions-and-their-solutions-in-C%2B%2B
 * [ ] https://github.com/stanislaw/awesome-safety-critical
+* [ ] Design of a low-level C++ template SIMD library
 
+## c++ reflection
+
+* [An Introduction to Reflection in C++](http://jackieokay.com/2017/04/13/reflection1.html)
+* [C++ Reflection in under 100 lines of code](http://pfultz2.com/blog/2012/07/31/reflection-in-under-100-lines/) 
+* [A Flexible Reflection System in C++: Part 1](http://preshing.com/20180116/a-primitive-reflection-system-in-cpp-part-1/)
 
 # concurrency
 
+* [When I memcpy a struct into a std::atomic of that struct, why does the result not match?](https://blogs.msdn.microsoft.com/oldnewthing/20180328-00/?p=98365)
+* [Understanding the C/C++ memory model](https://davmac.wordpress.com/2018/01/28/understanding-the-c-c-memory-model/)
 * [Cache coherency primer](https://fgiesen.wordpress.com/2014/07/07/cache-coherency/)
 * [高效内存无锁队列 Disruptor](http://shanshanpt.github.io/2016/11/01/disruptor.html)
-
 
 # scala
 
@@ -151,12 +176,10 @@
 * [S-99: Ninety-Nine Scala Problems](http://aperiodic.net/phil/scala/s-99/)
 * [Scala interview questions](http://pedrorijo.com/blog/scala-interview-questions/)
 
-
 ## type level programming
 
 * The Type Astronaut's Guide to Shapeless shapeless-guide
 * [Introduction Type Level Programming in Scala step by step](http://gigiigig.github.io/tlp-step-by-step/introduction.html)
-
 
 ## functional programming related
 
@@ -172,38 +195,37 @@
 * [ ] http://colah.github.io/posts/2015-09-NN-Types-FP/
 * [ ] https://bartoszmilewski.com/2014/10/28/category-theory-for-programmers-the-preface/
 
-
 # music
 
 * [ ] [怎样欣赏交响乐、歌剧、古典和美声这类音乐？](https://www.zhihu.com/question/22208507)
-
 
 # design pattern
 
 * [ ] Design patterns for container-based distributed systems
 
-
 # data structure
 
 * [Notes on Data Structures and Programming Techniques (CPSC 223, Spring 2015)](http://cs.yale.edu/homes/aspnes/classes/223/notes.html)
 
+# network
+
+* [UDP vs. TCP Which protocol is best for games?](https://gafferongames.com/post/udp_vs_tcp/)
+* [游戏网络开发(一)：UDP vs. TCP](http://gad.qq.com/program/translateview/7167380)
 
 # operating system
 
-* [CSAPP Introduction to Computer Systems (ICS)](http://www.cs.cmu.edu/~213/)
+* [Implementing Malloc: Students and Systems Programming](https://news.ycombinator.com/item?id=15974483)
 * [Writing a Linux Debugger Part 1: Setup](https://blog.tartanllama.xyz/c++/2017/03/21/writing-a-linux-debugger-setup/)
 * [高性能计算机架构 流程、缓存和多核处理器](https://cn.udacity.com/course/high-performance-computer-architecture--ud007/)
 * [Parallel Computer Architecture and Programming](http://15418.courses.cs.cmu.edu/spring2017/home)
 * [6.888 Parallel and Heterogeneous Computer Architecture](http://courses.csail.mit.edu/6.888/spring13/)
 * [UEFI和BIOS探秘 UEFI和BIOS相关，固件工程师必备](https://zhuanlan.zhihu.com/UEFIBlog)
-* http://web.cecs.pdx.edu/~walpole/class/cs533/fall2016/home.html
-* http://flint.cs.yale.edu/cs422/
-* https://pdos.csail.mit.edu/6.828/2016/
+* [CS533 - Concepts of Operating Systems Fall 2016](http://web.cecs.pdx.edu/~walpole/class/cs533/fall2016/home.html)
+* [CS 422/522: Design and Implementation of Operating Systems Fall 2017, Yale University](http://flint.cs.yale.edu/cs422/)
 * https://zhuanlan.zhihu.com/p/25867829?utm_source=qq&utm_medium=social
 * https://zhuanlan.zhihu.com/p/24854976?utm_source=qq&utm_medium=social
 * [从 8086 实模式进化到 80386 保护模式，给程序开发带来什么好处？](https://www.zhihu.com/question/20679883/answer/22842417?utm_source=qq&utm_medium=social)
-* [体系化认识RPC](https://mp.weixin.qq.com/s/lkz3zGk-KyMkI1eYeYH4ng)
-
+* [Writing an OS in Rust (Second Edition) ](https://os.phil-opp.com/second-edition/)
 
 # cache
 
@@ -211,11 +233,16 @@
 * [伪共享（false sharing），并发编程无声的性能杀手](http://www.cnblogs.com/cyfonly/p/5800758.html)
 * [Cache Coherence Protocols Analyzer](https://kshitizdange.github.io/418CacheSim/)
 
-
 # compiler
 
-* https://news.ycombinator.com/item?id=15005031
-    
+* [斯坦福大学编译原理课程质量怎么样？](https://www.zhihu.com/question/28679215)
+* [LLVM for Grad Students](http://www.cs.cornell.edu/~asampson/blog/llvm.html)
+* [Writing a minimal x86-64 JIT compiler in C++ - Part 1](https://solarianprogrammer.com/2018/01/10/writing-minimal-x86-64-jit-compiler-cpp/)
+* [An Intro to Compilers](https://news.ycombinator.com/item?id=15005031)
+* [CS426: Compiler Construction](https://courses.engr.illinois.edu/cs426/fa2016/)
+* [Engineering: CS1 - SELF PACED Compilers](https://lagunita.stanford.edu/courses/Engineering/Compilers/Fall2014/info)
+* [Writing a C Compiler, Part 1](https://norasandler.com/2017/11/29/Write-a-Compiler.html)
+* [有哪些关于c4 - C in four function 编译器的文章？](https://www.zhihu.com/question/28249756/answer/84307453?utm_medium=social&utm_source=qq)
 
 # distribute system
 
@@ -230,17 +257,15 @@
 * [log-what-every-software-engineer-should-know-about-real-time-datas-unifying](https://github.com/oldratlee/translations/blob/master/log-what-every-software-engineer-should-know-about-real-time-datas-unifying/README.md)
 * [Michael L. Scott](https://www.cs.rochester.edu/~scott/)
 
-
 ## class
 
-
+* [CS349D: Cloud Computing Technology](https://web.stanford.edu/class/cs349d/)
 * [Programming Models for Distributed Computing](http://heather.miller.am/teaching/cs7680/)
 * [6.824 Schedule: Spring 2012](https://pdos.csail.mit.edu/archive/6.824-2012/schedule.html)
 * [6.852/18.437 Distributed Algorithms](stellar.mit.edu/S/course/6/fa09/6.852/index.html)
 * [Distributed Systems II CSC536 sections 901 and 910 Spring 2017](http://reed.cs.depaul.edu/lperkovic/csc536/)
 * [CS7412 Scalable Distributed Consistency: Models and Applications](http://www.cs.cornell.edu/courses/cs7412/2011sp/default.htm)
 * [CSC 2/458 Parallel and Distributed Systems](https://www.cs.rochester.edu/u/scott/courses/458/)
-
 
 ## distributed task queue
 
@@ -250,26 +275,20 @@
 * [ ] https://github.com/pricingassistant/mrq (pricingassistant/mrq)
 * [ ] https://github.com/celery/celery (celery/celery)
 
-
 ## rocketmq
 
 * https://catslave.github.io
 * https://github.com/catslave/RocketMQ-Annotated-Edition
 
-
 # database
 
+* [A History of Transaction Histories](https://ristret.com/s/f643zk/history_transaction_histories)
 * Let's Build a Simple Database https://cstack.github.io/db_tutorial/
-* DATABASE SYSTEMS http://15445.courses.cs.cmu.edu/fall2017/index.html
-* Database Systems http://15721.courses.cs.cmu.edu/spring2017/
-* 6.830 Database Systems
 * [MySQL索引背后的数据结构及算法原理](http://blog.codinglabs.org/articles/theory-of-mysql-index.html?from=timeline)
 * [MySQL索引原理及慢查询优化](http://tech.meituan.com/mysql-index.html)
 * [HyPer](http://hyper-db.de/index.html#)
 * rediSQL
-* https://github.com/rxin/db-readings
 * http://coding-geek.com/how-databases-work/
-
 
 # blogs
 
@@ -277,10 +296,14 @@
 * [（更新完结）阿里珍贵技术资料免费下载](https://yq.aliyun.com/articles/69316?utm_campaign=zilxiaz&utm_medium=images&utm_source=renyimen&utm_content=m_12058)
 * [YouTube 上有哪些计算机方面的值得推荐的公开课？](https://www.zhihu.com/question/49071324/answer/153213375?utm_source=qq&utm_medium=social)
 
-
 # server-side programming
 
 * [后台开发资料合集](https://zhuanlan.zhihu.com/p/25968963?utm_source=qq&utm_medium=social)
 * [知乎专栏·「DPDK 从入门到精通」](https://zhuanlan.zhihu.com/dpdkpp?utm_source=qq&utm_medium=social)
+* [后端开发面试题](https://github.com/monklof/Back-End-Developer-Interview-Questions)
+
+# programming
+
+* [CS107 - Programming Paradigms](https://see.stanford.edu/Course/CS107)
 
 
